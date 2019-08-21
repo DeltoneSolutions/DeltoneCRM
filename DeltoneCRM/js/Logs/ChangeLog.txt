@@ -1,0 +1,9 @@
+Change Log for DELTONECRM
+
+23/07/2015 - Version 1.1 - Alpha
+--------------------------------
+ENHANCEMENT REQUEST - KRIT
+* Added two new fields called Reference to record PO details from customer and Type of Call.
+
+BUG CORRECTION
+* Edited Order.aspx to show Xero reference number instead of CRM Order ID.

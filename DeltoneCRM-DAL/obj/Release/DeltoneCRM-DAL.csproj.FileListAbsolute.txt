@@ -1,0 +1,39 @@
+C:\DeltoneCRM\DeltoneCRM-DAL\bin\Release\DeltoneCRM-DAL.dll
+C:\DeltoneCRM\DeltoneCRM-DAL\bin\Release\DeltoneCRM-DAL.pdb
+C:\DeltoneCRM\DeltoneCRM-DAL\obj\Release\DeltoneCRM-DAL.dll
+C:\DeltoneCRM\DeltoneCRM-DAL\obj\Release\DeltoneCRM-DAL.pdb
+E:\WebProjects\DeltoneCRM\DeltoneCRM-DAL\bin\Release\DeltoneCRM-DAL.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM-DAL\bin\Release\DeltoneCRM-DAL.pdb
+E:\WebProjects\DeltoneCRM\DeltoneCRM-DAL\obj\Release\DeltoneCRM-DAL.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM-DAL\obj\Release\DeltoneCRM-DAL.pdb
+E:\WebProjects\DeltoneCRM\DeltoneCRM-DAL\obj\Release\DeltoneCRM-DAL.csprojResolveAssemblyReference.cache
+C:\Temp\DeltoneCRM\DeltoneCRM-DAL\bin\Release\DeltoneCRM-DAL.dll
+C:\Temp\DeltoneCRM\DeltoneCRM-DAL\bin\Release\DeltoneCRM-DAL.pdb
+C:\Temp\DeltoneCRM\DeltoneCRM-DAL\obj\Release\DeltoneCRM-DAL.csprojResolveAssemblyReference.cache
+C:\Temp\DeltoneCRM\DeltoneCRM-DAL\obj\Release\DeltoneCRM-DAL.dll
+C:\Temp\DeltoneCRM\DeltoneCRM-DAL\obj\Release\DeltoneCRM-DAL.pdb
+C:\Temp\DeltoneCRM - Test\DeltoneCRM-DAL\bin\Release\DeltoneCRM-DAL.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM-DAL\bin\Release\DeltoneCRM-DAL.pdb
+C:\Temp\DeltoneCRM - Test\DeltoneCRM-DAL\obj\Release\DeltoneCRM-DAL.csprojResolveAssemblyReference.cache
+C:\Temp\DeltoneCRM - Test\DeltoneCRM-DAL\obj\Release\DeltoneCRM-DAL.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM-DAL\obj\Release\DeltoneCRM-DAL.pdb
+H:\DeltoneCRM - Test\DeltoneCRM-DAL\bin\Release\DeltoneCRM-DAL.dll
+H:\DeltoneCRM - Test\DeltoneCRM-DAL\bin\Release\DeltoneCRM-DAL.pdb
+H:\DeltoneCRM - Test\DeltoneCRM-DAL\obj\Release\DeltoneCRM-DAL.csprojResolveAssemblyReference.cache
+H:\DeltoneCRM - Test\DeltoneCRM-DAL\obj\Release\DeltoneCRM-DAL.dll
+H:\DeltoneCRM - Test\DeltoneCRM-DAL\obj\Release\DeltoneCRM-DAL.pdb
+C:\WebProjects\DeltoneCRM\DeltoneCRM-DAL\bin\Release\DeltoneCRM-DAL.dll
+C:\WebProjects\DeltoneCRM\DeltoneCRM-DAL\bin\Release\DeltoneCRM-DAL.pdb
+C:\WebProjects\DeltoneCRM\DeltoneCRM-DAL\obj\Release\DeltoneCRM-DAL.csprojResolveAssemblyReference.cache
+C:\WebProjects\DeltoneCRM\DeltoneCRM-DAL\obj\Release\DeltoneCRM-DAL.dll
+C:\WebProjects\DeltoneCRM\DeltoneCRM-DAL\obj\Release\DeltoneCRM-DAL.pdb
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM-DAL\bin\Release\DeltoneCRM-DAL.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM-DAL\bin\Release\DeltoneCRM-DAL.pdb
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM-DAL\obj\Release\DeltoneCRM-DAL.csprojResolveAssemblyReference.cache
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM-DAL\obj\Release\DeltoneCRM-DAL.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM-DAL\obj\Release\DeltoneCRM-DAL.pdb
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM-DAL\bin\Release\log4net.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM-DAL\bin\Release\Newtonsoft.Json.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM-DAL\bin\Release\System.Net.Http.Formatting.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM-DAL\bin\Release\Newtonsoft.Json.xml
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM-DAL\bin\Release\System.Net.Http.Formatting.xml

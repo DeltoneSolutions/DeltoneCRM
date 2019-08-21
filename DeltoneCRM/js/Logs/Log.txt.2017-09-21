@@ -1,0 +1,123 @@
+2017-09-21 09:50:34,044 [120] ERROR DeltoneCRM.Order - Error RMA Faulty Goods uupdate detailsSystem.Data.SqlClient.SqlException (0x80131904): Must declare the scalar variable "@suppName".
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeltoneCRM_DAL.CreditNoteRMAHandler.UpdateRMAFORFaultyGoods(CreditNoteRMAFaultyGoods obj) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM-DAL\CreditNoteRMAHandler.cs:line 92
+   at DeltoneCRM.WebForm1.UpdateRMAFaultyGoods(CreditNoteRMAFaultyGoods rmaObj) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\UpdateCredit.aspx.cs:line 2807
+ClientConnectionId:7cb10af6-8636-48d2-a2d0-c83550c13d47
+2017-09-21 09:52:55,738 [114] ERROR DeltoneCRM.Order - Error RMA Faulty Goods uupdate detailsSystem.Data.SqlClient.SqlException (0x80131904): Must declare the scalar variable "@suppName".
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeltoneCRM_DAL.CreditNoteRMAHandler.UpdateRMAFORFaultyGoods(CreditNoteRMAFaultyGoods obj) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM-DAL\CreditNoteRMAHandler.cs:line 92
+   at DeltoneCRM.WebForm1.UpdateRMAFaultyGoods(CreditNoteRMAFaultyGoods rmaObj) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\UpdateCredit.aspx.cs:line 2807
+ClientConnectionId:7cb10af6-8636-48d2-a2d0-c83550c13d47
+2017-09-21 10:07:10,467 [89] ERROR DeltoneCRM.Order - Error RMA Faulty Goods uupdate detailsSystem.Data.SqlClient.SqlException (0x80131904): Must declare the scalar variable "@suppName".
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeltoneCRM_DAL.CreditNoteRMAHandler.UpdateRMAFORFaultyGoods(CreditNoteRMAFaultyGoods obj) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM-DAL\CreditNoteRMAHandler.cs:line 95
+   at DeltoneCRM.WebForm1.UpdateRMAFaultyGoods(CreditNoteRMAFaultyGoods rmaObj) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\UpdateCredit.aspx.cs:line 2808
+ClientConnectionId:9ffe78b1-35ad-4edb-aef7-1f234b3237d0
+2017-09-21 10:08:20,424 [13] ERROR DeltoneCRM.Order - Error RMA Faulty Goods uupdate detailsSystem.IndexOutOfRangeException: EventId
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at DeltoneCRM_DAL.CreditNoteRMAHandler.GetRMAByCreditNoteIdAndSuppName(Int32 creditNoteId, String suppName) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM-DAL\CreditNoteRMAHandler.cs:line 63
+   at DeltoneCRM_DAL.CreditNoteRMAHandler.UpdateRMAFORFaultyGoods(CreditNoteRMAFaultyGoods obj) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM-DAL\CreditNoteRMAHandler.cs:line 75
+   at DeltoneCRM.WebForm1.UpdateRMAFaultyGoods(CreditNoteRMAFaultyGoods rmaObj) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\UpdateCredit.aspx.cs:line 2808
+2017-09-21 10:09:11,435 [13] ERROR DeltoneCRM.Order - Error RMA Faulty Goods uupdate detailsSystem.IndexOutOfRangeException: EventId
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at DeltoneCRM_DAL.CreditNoteRMAHandler.GetRMAByCreditNoteIdAndSuppName(Int32 creditNoteId, String suppName) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM-DAL\CreditNoteRMAHandler.cs:line 63
+   at DeltoneCRM_DAL.CreditNoteRMAHandler.UpdateRMAFORFaultyGoods(CreditNoteRMAFaultyGoods obj) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM-DAL\CreditNoteRMAHandler.cs:line 75
+   at DeltoneCRM.WebForm1.UpdateRMAFaultyGoods(CreditNoteRMAFaultyGoods rmaObj) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\UpdateCredit.aspx.cs:line 2808
+2017-09-21 13:36:14,237 [20] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Data.SqlClient.SqlException (0x80131904): A transport-level error has occurred when receiving results from the server. (provider: Shared Memory Provider, error: 0 - The handle is invalid.) ---> System.ComponentModel.Win32Exception (0x80004005): The handle is invalid
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at DeltoneCRM.Fetch.getAlarmNumbers.CountAlarm() in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Fetch\getAlarmNumbers.aspx.cs:line 34
+   at DeltoneCRM.Fetch.getAlarmNumbers.Page_Load(Object sender, EventArgs e) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Fetch\getAlarmNumbers.aspx.cs:line 18
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:69d8e2b5-ff89-437c-9b23-cea751d097c1
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.fetch_getalarmnumbers_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_wl454mkx.33.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-09-21 14:02:52,104 [57] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Data.SqlClient.SqlException (0x80131904): A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The handle is invalid.) ---> System.ComponentModel.Win32Exception (0x80004005): The handle is invalid
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at DeltoneCRM_DAL.ItemDAL.UpdateOrInsertItemBySupplierCodeForAusJet(List`1 list, Int32 supplierId) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM-DAL\ItemDAL.cs:line 313
+   at DeltoneCRM.UploadExcelFile.UploadAusjetButton_Click(Object sender, EventArgs e) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\UploadExcelFile.aspx.cs:line 347
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:80800c20-39da-4e25-a034-b11bf0a7c2d2
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.uploadexcelfile_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_ovov3h1x.6.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

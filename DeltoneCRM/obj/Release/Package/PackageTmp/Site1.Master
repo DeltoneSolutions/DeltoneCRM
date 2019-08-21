@@ -1,0 +1,608 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="DeltoneCRM.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <link href="css/smoothness/jquery-ui-1.10.3.custom.css" rel="stylesheet" />
+        <script src="js/jquery-2.1.3.js"></script>
+    </asp:ContentPlaceHolder>
+    <link href="css/Overall.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css' />
+    <script src="Scripts/notify.js"></script>
+
+
+    <style type="text/css">
+        .btm_01 {
+            width: 100%;
+        }
+
+        .pwddiv {
+            width: 300px;
+            height: 300px;
+            border: 1px rgb(196, 196, 196) solid;
+            border-top-color: #eb473d;
+            background: #eb473d;
+            position: absolute;
+            top: 30px;
+            right: 22%;
+            z-index: 120;
+        }
+
+        #notification_li {
+            position: relative;
+        }
+
+        #notificationContainer {
+            background-color: #3a0000;
+            /*border: 1px solid rgba(100, 100, 100, .4);
+	-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);*/
+            overflow: visible;
+            position: absolute;
+            top: 30px;
+            margin-left: -30px;
+            width: 490px;
+            z-index: 10000;
+            display: none;
+            /*// Enable this after jquery implementation*/
+        }
+
+            #notificationContainer:before {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 0;
+                height: 0;
+                color: transparent;
+                border: 10px solid black;
+                border-color: transparent transparent white;
+                margin-top: -20px;
+                margin-left: 188px;
+            }
+        /*#notificationTitle {
+	/*font-weight: bold;
+	/*padding: 8px;
+	font-size: 13px;
+	background-color: #ffffff;
+	position: fixed;
+	z-index: 1000;
+	width: 490px;
+	border-bottom: 1px solid #dddddd;
+}*/
+        #notificationsBody {
+            min-height: 50px;
+            padding-top: 0px;
+            padding-right: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+        }
+
+        #notificationFooter {
+            background-color: #FFD7D7;
+            text-align: center;
+            /*font-weight: bold;*/
+            padding: 8px;
+            font-size: 12px;
+            border-top: 1px solid #dddddd;
+        }
+
+        #notification_count {
+            /*padding: 3px 7px 3px 7px;*/
+            font-family: 'Open Sans', sans-serif;
+            /*background: #cc0000;*/
+            color: #ffffff;
+            font-weight: 600;
+            text-align: center;
+            font-size: 14px;
+            /*margin-left: 77px;
+	border-radius: 9px;
+	-moz-border-radius: 9px; 
+	-webkit-border-radius: 9px;
+	position: absolute;
+	margin-top: -5px;
+	font-size: 11px;*/
+        }
+
+        .notification_count_bck {
+            background: #EB473D;
+        }
+
+        .notification_count_bck_yellow {
+            background: #DBC500;
+        }
+
+        #dashboard_count {
+            /*padding: 3px 7px 3px 7px;*/
+            font-family: 'Open Sans', sans-serif;
+            /*background: #cc0000;*/
+            color: #ffffff;
+            font-weight: 600;
+            text-align: center;
+            font-size: 14px;
+            /*margin-left: 77px;
+	border-radius: 9px;
+	-moz-border-radius: 9px; 
+	-webkit-border-radius: 9px;
+	position: absolute;
+	margin-top: -5px;
+	font-size: 11px;*/
+        }
+
+        .alarm-btn-style {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            color: #fff;
+            background-color: #602040;
+            font-weight: 600;
+            text-align: center;
+        }
+
+            .alarm-btn-style:hover {
+                color: #fff;
+                background-color: #391326;
+                cursor: pointer;
+            }
+        .notifyjs-bootstrap-base {
+            height:60px;
+             width:200px;
+             white-space: pre-line ;
+        }
+        .wordrbreak{
+             word-break: keep-all;
+        }
+
+    </style>
+
+    <script language="javascript">
+
+        function getAlarmCount() {
+            $('#notification_count').show();
+            $.ajax({
+                url: 'Fetch/getAlarmNumbers.aspx',
+                success: function (data) {
+                    $('#notification_count').html(data);
+                },
+                error: function (xhr, err) {
+                    //alert("readyState: " + xhr.readyState + "\nstatus: " + xhr.status);
+                    //alert("responseText: " + xhr.responseText);
+                },
+            });
+        }
+
+        $(document).click(function () {
+            $('#notificationContainer').hide();
+        });
+
+        $(document).ready(function () {
+
+            var messdd = "test ss  test sd sdf sdf sdf sdf   sdf "
+            //  $.notify("Hello World");
+            // $("#testMe").notify("Hello Box");
+            
+
+           
+
+            getAlarmCount();
+            setInterval(function () {
+                getAlarmCount();
+            }, 60 * 1000);
+
+            $("#notificationLink").click(function () {
+                $('#notificationsBody').load('alarmlist.aspx');
+                $("#notificationContainer").fadeToggle(1);
+                //$("#notification_count").fadeOut("slow");
+                return false;
+
+            });
+
+
+            $('#findcustomerorder').autocomplete({
+                source: "Fetch/FetchSearchOrder.aspx",
+                select: function (event, ui) {
+                    //window.open('ConpanyInfo.aspx?companyid=' + ui.item.id);
+                   // $('#CompanyContactTR').show();
+                    // $('#CompanyContactiFrame').attr('src', 'CompanyContactInfo.aspx?cid=' + ui.item.id);
+                    var valsSPLIT = ui.item.id.split(',');;
+                   
+                    var url = 'order.aspx?Oderid=' + (valsSPLIT[0]) + '&cid=' + (valsSPLIT[2])
+                            + '&Compid=' + (valsSPLIT[1]);
+                    window.open(url, "_blank");
+                    $(this).val(''); return false;
+                       
+                   
+                }
+            });
+
+        });
+
+
+        var username = '<%= userName %>';
+
+        window.setInterval("callReminderData();", 30000);
+
+        function CloseWindow() {
+            $('#addDialogCsPopNotify').dialog('close');
+
+        }
+
+        //  window.setTimeout("CloseWindow();", 10000);  // one minute.
+
+        function callReminderData() {
+
+            $.ajax({
+                url: 'Fetch/FetchCalendarReminder.aspx',
+
+                success: function (data) {
+                    // console.log(data);
+                    if (data)
+                        notifyOneMe(data);
+
+                },
+                error: function (xhr, err) {
+                    alert("readyState: " + xhr.readyState + "\nstatus: " + xhr.status);
+                    alert("responseText: " + xhr.responseText);
+                },
+            });
+        }
+
+        function notifyOneMe(data) {
+            var conMessage = "Hi " + username + ", Reminder : "+ data;
+            $.notify(conMessage
+              , {
+
+                  autoHide: false,
+                  globalPosition: 'top right',
+                  gap: 2
+              });
+        }
+
+
+        function notifyMe(message) {
+
+            console.log('test message:' + message);
+            var canCall=true;
+            // Let's check if the browser supports notifications
+            if (!("Notification" in window)) {
+                alert("This browser does not support desktop notification");
+            }
+
+                // Let's check if the user is okay to get some notification
+            else if (Notification.permission === "granted") {
+                console.log('Notification permission status In granted:', Notification.permission);
+                // If it's okay let's create a notification
+                var options = {
+                    body: message,
+                    icon: "Images/btn_01.png",
+                    dir: "ltr",
+                    requireInteraction: true
+                };
+                var notification = new Notification("Hi " + username, options);
+                canCall=false;
+                //setTimeout(function () {
+                //    notification.close();
+                //}, 60000);
+            }
+
+                // Otherwise, we need to ask the user for permission
+                // Note, Chrome does not implement the permission static property
+                // So we have to check for NOT 'denied' instead of 'default'
+            else if (Notification.permission !== 'denied' || Notification.permission === "default") {
+                Notification.requestPermission(function (permission) {
+
+                    console.log('Notification permission status In denied:', Notification.permission);
+                    canCall = false;
+                    // Whatever the user answers, we make sure we store the information
+                    if (!('permission' in Notification)) {
+                        Notification.permission = permission;
+
+                        console.log('Notification permission status In permission:', Notification.permission);
+                    }
+
+                    // If the user is okay, let's create a notification
+                    if (permission === "granted") {
+                        var options = {
+                            body: message,
+                            icon: "Images/btn_01.png",
+                            dir: "ltr"
+                        };
+                        var notification = new Notification("Hi " + username, options);
+
+                        //setTimeout(function () {
+                        //    notification.close();
+                        //}, 60000);
+                    }
+                });
+            }
+
+            console.log(canCall);
+
+                if (canCall) {
+
+                    
+                        var options = {
+                            body: message,
+                            icon: "Images/btn_01.png",
+                            dir: "ltr"
+                        };
+                        var notification = new Notification("Hi " + username, options);
+                
+            }
+
+            // At last, if the user already denied any notification, and you
+            // want to be respectful there is no need to bother them any more.
+        }
+
+
+
+    </script>
+
+</head>
+<body>
+
+    <form id="form1" runat="server">
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td height="30" align="center" bgcolor="#eb473d">
+                    <table width="980" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <div id="testMe"></div>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table width="30" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td id="notification_count">&nbsp;</td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td width="80" align="left" class="alarm-btn-style" id="notificationLink" style="display:none;">ALARMS
+
+                                <div id="notificationContainer">
+                                    <!--<div id="notificationTitle">MERCPRO ALARMS</div>-->
+                                    <div id="notificationsBody" class="notifications"></div>
+                                    <!--<div id="notificationFooter">---------------</div>-->
+                                </div>
+                            </td>
+                            <td width="10"></td>
+                            <td width="140" align="left" class="alarm-btn-style" id="calendar"><a href="CalendarFull.aspx" style="color: white; text-decoration: none">EVENTS</a></td>
+                           
+                            <td align="right" class="UpperTitleBar">
+                                <asp:Label ID="lbWelComeMsg" runat="server"></asp:Label></td>
+                            <td>&nbsp;</td>
+                            <td width="30" height="30" align="center" valign="middle"  class="alarm-btn-style">
+                                <asp:LinkButton runat="server" ID="lbLogout" OnClick="lbLogout_Click" style="color: white; 
+                      text-decoration: none;text-align:center" Text="Logout"></asp:LinkButton></td>
+                             
+                             <td width="10"></td>
+                            <td width="80" align="left" class="alarm-btn-style" id="searchtd" runat="server" visible="false">
+                                <span>
+                                   Search Order Number
+                                </span>
+                                <input name="findcustomerorder" type="text" 
+                                    id="findcustomerorder" size="30" autocomplete="off"/>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td height="75" align="center" bgcolor="#3e3e42">
+                    <table width="980" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td height="75">
+                                <img src="images/logo_caps_white.png" alt="" width="150" height="30" /></td>
+                            <td width="500">
+                                <table width="500" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td width="200">&nbsp;</td>
+                                        <td width="75" height="75" align="center" valign="middle" class="linkswbrdr" onclick="javascript:window.open('dashboard1.aspx','_self')">
+                                            <table width="70" border="0" align="center" cellpadding="0" cellspacing="0" onclick="javascript:window.open('dashboard1.aspx','_self')">
+                                                <tr>
+                                                    <td align="center">
+                                                        <img src="images/project.png" alt="" width="30" height="32" border="0" /></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="20" align="center" valign="bottom" class="linkswbrdr_font">HOME</td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td width="75" height="75" align="center" valign="middle" class="linkswbrdr" onclick="javascript:window.open('Orders/AllOrders.aspx','_self')">
+                                            <table width="70" border="0" align="center" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td align="center">
+                                                        <img src="images/file_table.png" alt="" width="30" height="32" /></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="20" align="center" valign="bottom" class="linkswbrdr_font">ORDERS</td>
+                                                </tr>
+                                            </table>
+                                        </td>
+
+                                         <td width="75" height="75" class="linkswbrdr2" onclick="javascript:window.open('NoOrderCompanyByRep.aspx','_self')"  id="noorderForRep" runat="server">
+                                            <table width="70" border="0" align="center" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td align="center">
+                                                        <img src="images/file_list.png" alt="" width="31" height="31" /></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="20" align="center" valign="bottom" class="linkswbrdr_font">DATABASE </td>
+                                                </tr>
+                                            </table>
+
+                                        </td>
+                                          <td width="75" height="75" class="linkswbrdr2" onclick="javascript:window.open('Warehouse/WarehouseItemsRepView.aspx','_self')"  id="Td5" runat="server">
+                                            <table width="70" border="0" align="center" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td align="center">
+                                                        <img src="images/chart_bar_document.png" alt="" width="31" height="31" /></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="20" align="center" valign="bottom" class="linkswbrdr_font">WAREHOUSE </td>
+                                                </tr>
+                                            </table>
+
+                                        </td>
+
+                                      
+
+                                        <td width="75" height="75" align="center" valign="middle" class="linkswbrdr" onclick="javascript:window.open('AllQuotes.aspx','_self')">
+                                            <table width="70" border="0" align="center" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td align="center">
+                                                        <img src="images/file_table.png" alt="" width="30" height="32" /></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="20" align="center" valign="bottom" class="linkswbrdr_font">QUOTES</td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                          <td width="75" height="75" align="center" valign="middle" class="linkswbrdr" onclick="javascript:window.open('ProductPriceBook.aspx','_self')">
+                                            <table width="70" border="0" align="center" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td align="center">
+                                                        <img src="../images/chart_bar_document.png" alt="" width="30" height="32" /></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="20" align="center" valign="bottom" class="linkswbrdr_font">PRICE BOOK</td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td width="75" height="75" align="center" class="linkswbrdr" onclick="javascript:window.open('Reports/Reports.aspx','_self')" id="ReportsLink" runat="server">
+                                            <table width="70" border="0" align="center" cellpadding="0" cellspacing="0" id="ReportsButton" runat="server">
+                                                <tr>
+                                                    <td align="center">
+                                                        <img src="images/chart_bar_document.png" alt="" width="30" height="32" /></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="20" align="center" valign="bottom" class="linkswbrdr_font">REPORTS</td>
+                                                </tr>
+                                            </table>
+                                        </td>
+
+                                      
+
+                                        <td width="75" height="75" class="linkswbrdr2" onclick="javascript:window.open('CreditNotes/AllCreditNotes.aspx','_self')" id="Td1" runat="server">
+                                            <table width="70" border="0" align="center" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td align="center">
+                                                        <img src="images/blocknotes_2.png" alt="" width="31" height="31" /></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="20" align="center" valign="bottom" class="linkswbrdr_font">CREDIT </td>
+                                                </tr>
+                                            </table>
+
+                                        </td>
+                                          <td width="75" height="75" align="center" class="linkswbrdr" onclick="javascript:window.open('../Reports/RepReports.aspx','_self')" visible="false" id="reportsRep" runat="server">
+                                            <table width="70" border="0" align="center" cellpadding="0" cellspacing="0" id="Table1" runat="server">
+                                                <tr>
+                                                    <td align="center">
+                                                        <img src="images/chart_bar_document.png" alt="" width="30" height="32" /></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="20" align="center" valign="bottom" class="linkswbrdr_font">REPORTS</td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td width="75" height="75" class="linkswbrdr2" onclick="javascript:window.open('LeadCompanyRep.aspx','_self')"  id="leadsrep" runat="server">
+                                            <table width="70" border="0" align="center" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td align="center">
+                                                        <img src="images/file_list.png" alt="" width="31" height="31" /></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="20" align="center" valign="bottom" class="linkswbrdr_font" style="font-size:10px;">ACCOUNT LEADS </td>
+                                                </tr>
+                                            </table>
+
+                                        </td>
+                                         <td width="75" height="75" style="display:none;" class="linkswbrdr2" onclick="javascript:window.open('LeadCompanyNotExist.aspx','_self')"  id="Td3" runat="server">
+                                            <table width="70" border="0" align="center" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td align="center">
+                                                        <img src="images/file_list.png" alt="" width="31" height="31" /></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="20" align="center" valign="bottom" class="linkswbrdr_font" style="font-size:7px;">NON EXISTING LEADS</td>
+                                                </tr>
+                                            </table>
+
+                                        </td>
+                                       
+
+                                        
+
+                                         <td width="75" height="75" class="linkswbrdr2" onclick="javascript:window.open('../QuoteAllocateRep.aspx','_self')"  id="quoteallocateRep" runat="server">
+             <table width="70" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="center"><img src="../images/file_table.png" alt="" width="31" height="31" /></td>
+                  </tr>
+                  <tr>
+                    <td height="20" align="center" valign="bottom" class="linkswbrdr_font" style="font-size:10px;">QUOTE LEADS </td>
+                  </tr>
+            </table>
+
+            </td>
+
+                                        <td width="75" height="75" class="linkswbrdr2" onclick="javascript:window.open('SalesRepCS.aspx','_self')" id="Td2" runat="server">
+                                            <table width="70" border="0" align="center" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td align="center">
+                                                        <img src="images/blocknotes_2.png" alt="" width="31" height="31" /></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="20" align="center" valign="bottom" class="linkswbrdr_font" style="font-size:10px;">CS 
+                        <div id="numberNotCompleted" runat="server"></div>
+                                                    </td>
+                                                </tr>
+                                            </table>
+
+                                        </td>
+                                          <td width="75" height="75" class="linkswbrdr2" onclick="javascript:window.open('Manage/ManageCentral.aspx','_self')" id="ManageLink" runat="server">
+                                            <table width="70" border="0" align="center" cellpadding="0" cellspacing="0" id="ManageButton" runat="server">
+
+                                                <tr>
+                                                    <td align="center">
+                                                        <img src="images/blocknotes_2.png" alt="" width="31" height="31" /></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="20" align="center" valign="bottom" class="linkswbrdr_font">MANAGE</td>
+                                                </tr>
+
+
+                                            </table>
+                                        </td>
+
+
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <table align="center" cellpadding="0" cellspacing="0" class="btm_01">
+        <%--<a href="Order.aspx.cs">Order.aspx.cs</a>--%>
+        <tr>
+            <td align="center" class="btm_02">DELTONE CRM VERSION 1.0 &nbsp;|&nbsp; COPYRIGHT © 2015 IMPROVATA &nbsp;|&nbsp; ALL RIGHTS <a href="Order.aspx.designer.cs">Order.aspx.designer.cs</a>
+                RESERVED</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,5 @@
+2017-08-09 12:04:34,489 [63] INFO  DeltoneCRM_DAL.OrderDAL - Message Dts :DTS-17276 Order Id : 8142 Contact Id17872
+2017-08-09 13:53:41,538 [76] INFO  DeltoneCRM_DAL.OrderSendEmailDAL -  Email sent paruthi001@gmail.com Order Id: 8141 Xero Dts: DTS-17161
+2017-08-09 13:55:58,532 [59] INFO  DeltoneCRM_DAL.OrderSendEmailDAL -  Email sent paruthi001@gmail.com Order Id: 8140 Xero Dts: DTS-17146
+2017-08-09 14:18:26,725 [40] INFO  DeltoneCRM_DAL.OrderDAL - Message Dts :DTS-17279 Order Id : 8143 Contact Id17872
+2017-08-09 15:16:03,637 [10] INFO  DeltoneCRM_DAL.OrderDAL - Message Dts :DTS-17283 Order Id : 8145 Contact Id17872

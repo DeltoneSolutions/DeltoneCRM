@@ -1,0 +1,48 @@
+2018-12-05 10:00:33,197 [49] INFO  DeltoneCRM.WebForm1 -  Company Duplicates :testa1111 user name:Dimitri Jayaratne
+2018-12-05 10:01:44,798 [19] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at DeltoneCRM.DeltoneCRMDAL.AddNewContact(Int32 CompID, String FirstName, String LastName, String DefaultAreaCode, String DefaultNumber, String MobileNumber, String EmailAddy, String ShipLine1, String ShipLine2, String ShipCity, String ShipState, String ShipPostcode, String BillLine1, String BillLine2, String BillCity, String BillState, String BillPostcode, String PrimaryContact, Int32 loggedinuserId) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\DeltoneCRMDAL.cs:line 268
+   at DeltoneCRM.Manage.Process_AddContact.Page_Load(Object sender, EventArgs e) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Manage\Process\Process_AddContact.aspx.cs:line 88
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.manage_process_process_addcontact_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_k0idpmmk.8.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-12-05 10:02:52,713 [6] INFO  DeltoneCRM.WebForm1 -  Company Duplicates :trent22 user name:Dimitri Jayaratne
+2018-12-05 10:04:04,137 [6] INFO  DeltoneCRM.WebForm1 -  Company Duplicates :trent22 user name:Dimitri Jayaratne
+2018-12-05 10:07:06,516 [45] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at DeltoneCRM.DeltoneCRMDAL.AddNewContact(Int32 CompID, String FirstName, String LastName, String DefaultAreaCode, String DefaultNumber, String MobileNumber, String EmailAddy, String ShipLine1, String ShipLine2, String ShipCity, String ShipState, String ShipPostcode, String BillLine1, String BillLine2, String BillCity, String BillState, String BillPostcode, String PrimaryContact, Int32 loggedinuserId) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\DeltoneCRMDAL.cs:line 268
+   at DeltoneCRM.Manage.Process_AddContact.Page_Load(Object sender, EventArgs e) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Manage\Process\Process_AddContact.aspx.cs:line 88
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.manage_process_process_addcontact_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_k0idpmmk.8.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-12-05 10:09:07,456 [14] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :tes222 Order Id 16164
+2018-12-05 10:15:41,943 [48] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :Test2 Order Id 16165
+2018-12-05 10:19:29,818 [20] INFO  DeltoneCRM.WebForm1 -  Company Duplicates :trent22 user name:Dimitri Jayaratne
+2018-12-05 10:19:49,735 [53] INFO  DeltoneCRM.WebForm1 -  Company Duplicates :TetAidan user name:Dimitri Jayaratne
+2018-12-05 10:23:16,026 [43] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :con1ttt Order Id 16166

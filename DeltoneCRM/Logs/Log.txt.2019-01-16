@@ -1,0 +1,428 @@
+2019-01-16 09:28:46,892 [14] ERROR DeltoneCRM.Global - Application error :System.Web.HttpException (0x80004005): The file '/ReportMonthlyRep.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-01-16 09:57:21,839 [41] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Runtime.InteropServices.COMException (0x800A03EC): Sorry, we couldn't find c:\temp\Test.xlsx. Is it possible it was moved, renamed or deleted?
+   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at DeltoneCRM.Reports.ReportMonthlyRep.CallPivotTalbeExcel() in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Reports\ReportMonthlyRep.aspx.cs:line 102
+   at DeltoneCRM.Reports.ReportMonthlyRep.GR_Click(Object sender, EventArgs e) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Reports\ReportMonthlyRep.aspx.cs:line 94
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.reports_reportmonthlyrep_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_reportmonthlyrep.aspx.dfa151d5.cojmobzf.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-01-16 09:59:00,581 [37] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Runtime.InteropServices.COMException (0x800A03EC): This command requires at least two rows of source data. You cannot use the command on a selection in only one row. Try the following:
+
+• If you're using an advanced filter, select a range of cells that contains at least two rows of data. Then click the Advanced Filter command again.
+• If you're creating a PivotTable report or PivotChart report, type a cell reference or select a range that includes at least two rows of data.
+   at System.Dynamic.ComRuntimeHelpers.CheckThrowException(Int32 hresult, ExcepInfo& excepInfo, UInt32 argErr, String message)
+   at CallSite.Target(Closure , CallSite , ComObject , Object , String , Object , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute5[T0,T1,T2,T3,T4,TRet](CallSite site, T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4)
+   at CallSite.Target(Closure , CallSite , PivotCache , Object , String , Object , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid5[T0,T1,T2,T3,T4](CallSite site, T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4)
+   at DeltoneCRM.Reports.ReportMonthlyRep.CallPivotTalbeExcel() in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Reports\ReportMonthlyRep.aspx.cs:line 115
+   at DeltoneCRM.Reports.ReportMonthlyRep.GR_Click(Object sender, EventArgs e) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Reports\ReportMonthlyRep.aspx.cs:line 94
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.reports_reportmonthlyrep_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_3pl2neet.4.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-01-16 10:07:22,209 [15] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Runtime.InteropServices.COMException (0x800A03EC): PivotFields method of PivotTable class failed
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotTable.PivotFields(Object Index)
+   at DeltoneCRM.Reports.ReportMonthlyRep.CallPivotTalbeExcel() in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Reports\ReportMonthlyRep.aspx.cs:line 121
+   at DeltoneCRM.Reports.ReportMonthlyRep.GR_Click(Object sender, EventArgs e) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Reports\ReportMonthlyRep.aspx.cs:line 94
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.reports_reportmonthlyrep_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_reportmonthlyrep.aspx.dfa151d5.f5xz_4ay.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-01-16 10:10:49,339 [36] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Data.SqlClient.SqlException (0x80131904): A transport-level error has occurred when receiving results from the server. (provider: Shared Memory Provider, error: 0 - The handle is invalid.) ---> System.ComponentModel.Win32Exception (0x80004005): The handle is invalid
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at DeltoneCRM.Fetch.getAlarmNumbers.CountAlarm() in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Fetch\getAlarmNumbers.aspx.cs:line 34
+   at DeltoneCRM.Fetch.getAlarmNumbers.Page_Load(Object sender, EventArgs e) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Fetch\getAlarmNumbers.aspx.cs:line 18
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:9235d7cb-508d-4af5-b60d-f625e101bcc0
+Error Number:6,State:0,Class:20
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.fetch_getalarmnumbers_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_hjm03bgy.86.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-01-16 10:39:31,585 [5] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DeltoneCRM.Reports.ReportMonthlyRep.CreatePivotTable(Workbook workbook, Worksheet sheet, Worksheet report, Int32 lastRow, Int32 lastCol) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Reports\ReportMonthlyRep.aspx.cs:line 179
+   at DeltoneCRM.Reports.ReportMonthlyRep.GR_Click(Object sender, EventArgs e) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Reports\ReportMonthlyRep.aspx.cs:line 122
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.reports_reportmonthlyrep_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_reportmonthlyrep.aspx.dfa151d5.ybw2ct5l.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-01-16 10:42:57,225 [19] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.IO.FileNotFoundException: Could not load file or assembly 'Spire.License, Version=1.2.1.4, Culture=neutral, PublicKeyToken=b1144360237c8b3f' or one of its dependencies. The system cannot find the file specified.
+File name: 'Spire.License, Version=1.2.1.4, Culture=neutral, PublicKeyToken=b1144360237c8b3f'
+   at Spire.Xls.Workbook.SaveToFile(String fileName, ExcelVersion version)
+   at DeltoneCRM.Reports.ReportMonthlyRep.GR_Click(Object sender, EventArgs e) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Reports\ReportMonthlyRep.aspx.cs:line 128
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+=== Pre-bind state information ===
+LOG: DisplayName = Spire.License, Version=1.2.1.4, Culture=neutral, PublicKeyToken=b1144360237c8b3f
+ (Fully-specified)
+LOG: Appbase = file:///C:/WebProjects/DeltoneCRM-GIT/DeltoneCRM/
+LOG: Initial PrivatePath = C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin
+Calling assembly : Spire.XLS, Version=6.5.0.4, Culture=neutral, PublicKeyToken=7fdbc5e92357a8da.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\web.config
+LOG: Using host configuration file: C:\Users\Saj\Documents\IISExpress\config\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Post-policy reference: Spire.License, Version=1.2.1.4, Culture=neutral, PublicKeyToken=b1144360237c8b3f
+LOG: The same bind was seen before, and was failed with hr = 0x80070002.
+
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.reports_reportmonthlyrep_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_reportmonthlyrep.aspx.dfa151d5.79zvxib4.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-01-16 10:43:13,481 [14] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DeltoneCRM.Reports.ReportMonthlyRep.fillRepsList() in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Reports\ReportMonthlyRep.aspx.cs:line 59
+   at DeltoneCRM.Reports.ReportMonthlyRep.Page_Load(Object sender, EventArgs e) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Reports\ReportMonthlyRep.aspx.cs:line 40
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.reports_reportmonthlyrep_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_rxdcqrby.7.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-01-16 13:11:47,893 [16] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: firstRow or lastRow
+   at Spire.Xls.Core.Spreadsheet.XlsRange..ctor(IInnerApp application, Object parent, Int32 firstCol, Int32 firstRow, Int32 lastCol, Int32 lastRow)
+   at Spire.Xls.CellRange..ctor(ExcelApplication application, Object parent, Int32 firstCol, Int32 firstRow, Int32 lastCol, Int32 lastRow)
+   at Spire.Xls.ExcelApplication.CreateRange(Object parent, Int32 firstCol, Int32 firstRow, Int32 lastCol, Int32 lastRow)
+   at Spire.Xls.Core.Spreadsheet.XlsRange.get_Item(Int32 row, Int32 column, Int32 lastRow, Int32 lastColumn)
+   at Spire.Xls.CellRange.get_Item(Int32 row, Int32 column, Int32 lastRow, Int32 lastColumn)
+   at DeltoneCRM.Reports.ReportMonthlyRep.SetFormat(Worksheet sheet, Int32 lastRow, Int32 lastCol) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Reports\ReportMonthlyRep.aspx.cs:line 377
+   at DeltoneCRM.Reports.ReportMonthlyRep.GR_Click(Object sender, EventArgs e) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Reports\ReportMonthlyRep.aspx.cs:line 138
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.reports_reportmonthlyrep_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_mhghwz3x.9.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-01-16 13:22:10,711 [35] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: firstRow or lastRow
+   at Spire.Xls.Core.Spreadsheet.XlsRange..ctor(IInnerApp application, Object parent, Int32 firstCol, Int32 firstRow, Int32 lastCol, Int32 lastRow)
+   at Spire.Xls.CellRange..ctor(ExcelApplication application, Object parent, Int32 firstCol, Int32 firstRow, Int32 lastCol, Int32 lastRow)
+   at Spire.Xls.ExcelApplication.CreateRange(Object parent, Int32 firstCol, Int32 firstRow, Int32 lastCol, Int32 lastRow)
+   at Spire.Xls.Core.Spreadsheet.XlsRange.get_Item(Int32 row, Int32 column, Int32 lastRow, Int32 lastColumn)
+   at Spire.Xls.CellRange.get_Item(Int32 row, Int32 column, Int32 lastRow, Int32 lastColumn)
+   at DeltoneCRM.Reports.ReportMonthlyRep.SetFormat(Worksheet sheet, Int32 lastRow, Int32 lastCol) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Reports\ReportMonthlyRep.aspx.cs:line 378
+   at DeltoneCRM.Reports.ReportMonthlyRep.GR_Click(Object sender, EventArgs e) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Reports\ReportMonthlyRep.aspx.cs:line 138
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.reports_reportmonthlyrep_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_reportmonthlyrep.aspx.dfa151d5.4qzwlclj.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-01-16 13:22:41,412 [45] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: firstRow or lastRow
+   at Spire.Xls.Core.Spreadsheet.XlsRange..ctor(IInnerApp application, Object parent, Int32 firstCol, Int32 firstRow, Int32 lastCol, Int32 lastRow)
+   at Spire.Xls.CellRange..ctor(ExcelApplication application, Object parent, Int32 firstCol, Int32 firstRow, Int32 lastCol, Int32 lastRow)
+   at Spire.Xls.ExcelApplication.CreateRange(Object parent, Int32 firstCol, Int32 firstRow, Int32 lastCol, Int32 lastRow)
+   at Spire.Xls.Core.Spreadsheet.XlsRange.get_Item(Int32 row, Int32 column, Int32 lastRow, Int32 lastColumn)
+   at Spire.Xls.CellRange.get_Item(Int32 row, Int32 column, Int32 lastRow, Int32 lastColumn)
+   at DeltoneCRM.Reports.ReportMonthlyRep.SetFormat(Worksheet sheet, Int32 lastRow, Int32 lastCol) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Reports\ReportMonthlyRep.aspx.cs:line 378
+   at DeltoneCRM.Reports.ReportMonthlyRep.GR_Click(Object sender, EventArgs e) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Reports\ReportMonthlyRep.aspx.cs:line 138
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.reports_reportmonthlyrep_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_reportmonthlyrep.aspx.dfa151d5.4qzwlclj.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-01-16 13:24:23,979 [59] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at DeltoneCRM.Reports.ReportMonthlyRep.getRepName() in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Reports\ReportMonthlyRep.aspx.cs:line 339
+   at DeltoneCRM.Reports.ReportMonthlyRep.GR_Click(Object sender, EventArgs e) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Reports\ReportMonthlyRep.aspx.cs:line 120
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.reports_reportmonthlyrep_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_reportmonthlyrep.aspx.dfa151d5.xwrddocm.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-01-16 13:26:48,155 [43] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at DeltoneCRM.Reports.ReportMonthlyRep.getRepName() in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Reports\ReportMonthlyRep.aspx.cs:line 339
+   at DeltoneCRM.Reports.ReportMonthlyRep.GR_Click(Object sender, EventArgs e) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Reports\ReportMonthlyRep.aspx.cs:line 120
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.reports_reportmonthlyrep_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_reportmonthlyrep.aspx.dfa151d5.ct7q3fn5.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-01-16 13:32:26,054 [64] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: firstRow or lastRow
+   at Spire.Xls.Core.Spreadsheet.XlsRange..ctor(IInnerApp application, Object parent, Int32 firstCol, Int32 firstRow, Int32 lastCol, Int32 lastRow)
+   at Spire.Xls.CellRange..ctor(ExcelApplication application, Object parent, Int32 firstCol, Int32 firstRow, Int32 lastCol, Int32 lastRow)
+   at Spire.Xls.ExcelApplication.CreateRange(Object parent, Int32 firstCol, Int32 firstRow, Int32 lastCol, Int32 lastRow)
+   at Spire.Xls.Core.Spreadsheet.XlsRange.get_Item(Int32 row, Int32 column, Int32 lastRow, Int32 lastColumn)
+   at Spire.Xls.CellRange.get_Item(Int32 row, Int32 column, Int32 lastRow, Int32 lastColumn)
+   at DeltoneCRM.Reports.ReportMonthlyRep.SetFormat(Worksheet sheet, Int32 lastRow, Int32 lastCol) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Reports\ReportMonthlyRep.aspx.cs:line 378
+   at DeltoneCRM.Reports.ReportMonthlyRep.GR_Click(Object sender, EventArgs e) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Reports\ReportMonthlyRep.aspx.cs:line 138
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.reports_reportmonthlyrep_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_reportmonthlyrep.aspx.dfa151d5.ct7q3fn5.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-01-16 13:33:36,140 [41] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: firstRow or lastRow
+   at Spire.Xls.Core.Spreadsheet.XlsRange..ctor(IInnerApp application, Object parent, Int32 firstCol, Int32 firstRow, Int32 lastCol, Int32 lastRow)
+   at Spire.Xls.CellRange..ctor(ExcelApplication application, Object parent, Int32 firstCol, Int32 firstRow, Int32 lastCol, Int32 lastRow)
+   at Spire.Xls.ExcelApplication.CreateRange(Object parent, Int32 firstCol, Int32 firstRow, Int32 lastCol, Int32 lastRow)
+   at Spire.Xls.Core.Spreadsheet.XlsRange.get_Item(Int32 row, Int32 column, Int32 lastRow, Int32 lastColumn)
+   at Spire.Xls.CellRange.get_Item(Int32 row, Int32 column, Int32 lastRow, Int32 lastColumn)
+   at DeltoneCRM.Reports.ReportMonthlyRep.SetFormat(Worksheet sheet, Int32 lastRow, Int32 lastCol) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Reports\ReportMonthlyRep.aspx.cs:line 378
+   at DeltoneCRM.Reports.ReportMonthlyRep.GR_Click(Object sender, EventArgs e) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Reports\ReportMonthlyRep.aspx.cs:line 138
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.reports_reportmonthlyrep_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_reportmonthlyrep.aspx.dfa151d5.bo3qx4k6.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-01-16 13:39:27,766 [47] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.IO.FileNotFoundException: Could not load file or assembly 'Spire.License, Version=1.2.1.4, Culture=neutral, PublicKeyToken=b1144360237c8b3f' or one of its dependencies. The system cannot find the file specified.
+File name: 'Spire.License, Version=1.2.1.4, Culture=neutral, PublicKeyToken=b1144360237c8b3f'
+   at Spire.Xls.Workbook.SaveToFile(String fileName, ExcelVersion version)
+   at DeltoneCRM.Reports.ReportMonthlyRep.GR_Click(Object sender, EventArgs e) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Reports\ReportMonthlyRep.aspx.cs:line 148
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+=== Pre-bind state information ===
+LOG: DisplayName = Spire.License, Version=1.2.1.4, Culture=neutral, PublicKeyToken=b1144360237c8b3f
+ (Fully-specified)
+LOG: Appbase = file:///C:/WebProjects/DeltoneCRM-GIT/DeltoneCRM/
+LOG: Initial PrivatePath = C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin
+Calling assembly : Spire.XLS, Version=6.5.0.4, Culture=neutral, PublicKeyToken=7fdbc5e92357a8da.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\web.config
+LOG: Using host configuration file: C:\Users\Saj\Documents\IISExpress\config\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Post-policy reference: Spire.License, Version=1.2.1.4, Culture=neutral, PublicKeyToken=b1144360237c8b3f
+LOG: The same bind was seen before, and was failed with hr = 0x80070002.
+
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.reports_reportmonthlyrep_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_reportmonthlyrep.aspx.dfa151d5.ay-edqxw.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-01-16 13:40:38,719 [10] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DeltoneCRM.Reports.ReportMonthlyRep.fillRepsList() in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Reports\ReportMonthlyRep.aspx.cs:line 67
+   at DeltoneCRM.Reports.ReportMonthlyRep.Page_Load(Object sender, EventArgs e) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Reports\ReportMonthlyRep.aspx.cs:line 43
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.reports_reportmonthlyrep_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_reportmonthlyrep.aspx.dfa151d5.endlmqgo.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-01-16 15:17:31,993 [100] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.ObjectDisposedException: Cannot write to a closed TextWriter.
+   at System.IO.__Error.WriterClosed()
+   at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   at System.IO.StreamWriter.Write(String value)
+   at DeltoneCRM.Reports.ReportMonthlyRep.GR_Click(Object sender, EventArgs e) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Reports\ReportMonthlyRep.aspx.cs:line 184
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.reports_reportmonthlyrep_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_reportmonthlyrep.aspx.dfa151d5.44l78v4n.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

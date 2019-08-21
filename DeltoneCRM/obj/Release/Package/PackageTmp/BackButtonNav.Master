@@ -1,0 +1,304 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="BackButtonNav.master.cs" Inherits="DeltoneCRM.BackButtonNav" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server"> <script src="http://code.jquery.com/jquery-latest.js"></script>
+       <%-- <link href="css/smoothness/jquery-ui-1.10.3.custom.css" rel="stylesheet"/>--%>
+  
+    </asp:ContentPlaceHolder>
+    <link href="css/Overall.css" rel="stylesheet"/>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+    
+    <style type="text/css">
+        .btm_01 {
+            width: 100%;
+        }
+        .pwddiv {
+            width: 300px;
+            height: 300px;
+            border: 1px rgb(196, 196, 196) solid;
+            border-top-color: #eb473d;
+            background: #eb473d;
+            position: absolute;
+            top: 30px;
+            right: 22%;
+            z-index: 120;
+        }
+        #notification_li
+{
+	position:relative;
+}
+#notificationContainer {
+	background-color: #FFD7D7;
+	/*border: 1px solid rgba(100, 100, 100, .4);
+	-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);*/
+	overflow: visible;
+	position: absolute;
+	top: 30px;
+	margin-left: -30px;
+	width: 490px;
+	z-index: 10000;
+	display: none;
+/*// Enable this after jquery implementation*/ 
+}
+/*// Popup Arrow*/
+#notificationContainer:before {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 0;
+	color: transparent;
+	border: 10px solid black;
+	border-color: transparent transparent white;
+	margin-top: -20px;
+	margin-left: 188px;
+}
+/*#notificationTitle {
+	/*font-weight: bold;
+	/*padding: 8px;
+	font-size: 13px;
+	background-color: #ffffff;
+	position: fixed;
+	z-index: 1000;
+	width: 490px;
+	border-bottom: 1px solid #dddddd;
+}*/
+#notificationsBody {
+	min-height: 50px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#notificationFooter {
+	background-color: #CC0000;
+	text-align: center;
+	/*font-weight: bold;*/
+	padding: 8px;
+	font-size: 12px;
+	border-top: 1px solid #dddddd;
+}
+#notification_count {
+	/*padding: 3px 7px 3px 7px;*/
+	font-family: 'Open Sans', sans-serif;
+	/*background: #cc0000;*/
+	color: #ffffff;
+	font-weight: 600;
+	text-align:center;
+	font-size: 14px;
+	/*margin-left: 77px;
+	border-radius: 9px;
+	-moz-border-radius: 9px; 
+	-webkit-border-radius: 9px;
+	position: absolute;
+	margin-top: -5px;
+	font-size: 11px;*/
+}
+.notification_count_bck {
+		background: #CC0000;
+}
+.notification_count_bck_yellow {
+		background: #DBC500;
+}
+#dashboard_count {
+	/*padding: 3px 7px 3px 7px;*/
+	font-family: 'Open Sans', sans-serif;
+	/*background: #cc0000;*/
+	color: #ffffff;
+	font-weight: 600;
+	text-align:center;
+	font-size: 14px;
+	/*margin-left: 77px;
+	border-radius: 9px;
+	-moz-border-radius: 9px; 
+	-webkit-border-radius: 9px;
+	position: absolute;
+	margin-top: -5px;
+	font-size: 11px;*/
+}
+
+.alarm-btn-style {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #A6A6A6;
+	background-color: #4A4A4A;
+	font-weight: 600;
+	text-align: center;
+}
+.alarm-btn-style:hover {
+	color:#fff;
+	background-color: #900;
+	cursor: pointer;
+}
+    </style>
+
+    <script language="javascript">
+        $(document).ready(function () {
+            $("#notificationLink").click(function () {
+                $('#notificationsBody').load('alarmlist.aspx');
+              //  $("#notificationContainer").fadeToggle(1);
+                //$("#notification_count").fadeOut("slow");
+              //  return false;
+
+            });
+
+            //$('#findcustomerorder').autocomplete({
+            //    source: "Fetch/FetchSearchOrder.aspx",
+            //    select: function (event, ui) {
+            //        //window.open('ConpanyInfo.aspx?companyid=' + ui.item.id);
+            //        // $('#CompanyContactTR').show();
+            //        // $('#CompanyContactiFrame').attr('src', 'CompanyContactInfo.aspx?cid=' + ui.item.id);
+            //        var valsSPLIT = ui.item.id.split(',');;
+
+            //        var url = 'order.aspx?Oderid=' + (valsSPLIT[0]) + '&cid=' + (valsSPLIT[2])
+            //                + '&Compid=' + (valsSPLIT[1]);
+            //        window.open(url, "blank");
+            //        //$(this).val(''); return false;
+
+
+            //    }
+            //});
+        });
+    </script>
+    
+    </head>
+<body>
+
+    <form id="form1" runat="server">
+
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="30" align="center" bgcolor="#eb473d"><table width="980" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><table width="30" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td id="notification_count">&nbsp;</td>
+          </tr>
+        </table></td>
+          <td width="80" align="left" class="alarm-btn-style" id="notificationLink" style="display:none;">ALARMS
+
+<div id="notificationContainer">
+<!--<div id="notificationTitle">MERCPRO ALARMS</div>-->
+<div id="notificationsBody" class="notifications"></div>
+<!--<div id="notificationFooter">---------------</div>-->
+</div></td>
+          <td width="10"></td>
+          <td width="140" align="left" class="alarm-btn-style" id="calendar"><a href="CalendarFull.aspx" style="color:grey;text-decoration:none">EVENTS</a></td>
+ 
+        <td align="right" class="UpperTitleBar"><asp:Label id="lbWelComeMsg" runat="server"></asp:Label></td>
+        <td>&nbsp;</td>
+        <td width="30" height="30" align="center" valign="middle" class="alarm-btn-style">
+            <asp:LinkButton runat="server" ID="lbLogout" OnClick="lbLogout_Click" style="color: white; text-decoration: none;text-align:center"   Text="Logout"></asp:LinkButton></td>
+          <td width="10"></td>
+            <td width="80" align="left" class="alarm-btn-style" id="searchtd" runat="server" visible="false">
+                                <span>
+                                    Search By Order Number:
+                                </span>
+                                <input name="findcustomerorder" type="text" 
+                                    id="findcustomerorder" size="30" autocomplete="off"/>
+                            </td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="75" align="center" bgcolor="#3e3e42"><table width="980" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="75"><img src="images/logo_caps_white.png" alt="" width="150" height="30" /></td>
+        <td width="500"><table width="500" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="200">&nbsp;</td>
+            <td width="75" height="75" align="center" valign="middle" class="linkswbrdr" onclick="javascript:window.open('dashboard1.aspx','_self')"><table width="70" border="0" align="center" cellpadding="0" cellspacing="0" onclick="javascript:window.open('dashboard1.aspx','_self')">
+              <tr>
+                <td align="center"><img src="images/project.png" alt="" width="30" height="32" border="0" /></a></td>
+              </tr>
+              <tr>
+                <td height="20" align="center" valign="bottom" class="linkswbrdr_font">HOME</td>
+              </tr>
+            </table></td>
+            <td width="75" height="75" align="center" valign="middle" class="linkswbrdr" onclick="javascript:window.open('Orders/AllOrders.aspx','_self')"><table width="70" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td align="center"><img src="images/file_table.png" alt="" width="30" height="32" /></a></td>
+              </tr>
+              <tr>
+                <td height="20" align="center" valign="bottom" class="linkswbrdr_font">ORDERS</td>
+              </tr>
+            </table></td>
+              <td width="75" height="75" align="center" valign="middle" class="linkswbrdr" id="reportsLink" runat="server" onclick="javascript:window.open('Reports/Reports.aspx','_self')"><table width="70" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td align="center"><img src="images/chart_bar_document.png" alt="" width="30" height="32" /></a></td>
+              </tr>
+              <tr>
+                <td height="20" align="center" valign="bottom" class="linkswbrdr_font">REPORTS</td>
+              </tr>
+            </table></td>
+            <td width="75" height="75" align="center" class="linkswbrdr" onclick="javascript:window.open('Manage/ManageCentral.aspx','_self')" id="ManageLink" runat="server">
+                <table width="70" border="0" align="center" cellpadding="0" cellspacing="0" id="ManageButton" runat="server">
+                
+              <tr>
+                <td align="center"><img src="images/blocknotes_2.png" alt="" width="31" height="31" /></td>
+              </tr>
+              <tr>
+                <td height="20" align="center" valign="bottom" class="linkswbrdr_font">MANAGE</td>
+              </tr>
+
+
+            </table></td>
+            <td width="75" height="75" class="linkswbrdr2" onclick="javascript:window.open('CreditNotes/AllCreditNtoes.aspx','_self')" id="CreditLink" runat="server">
+             <table width="70" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="center"><img src="images/blocknotes_2.png" alt="" width="31" height="31" /></td>
+                  </tr>
+                  <tr>
+                    <td height="20" align="center" valign="bottom" class="linkswbrdr_font">CREDIT</td>
+                  </tr>
+            </table>
+
+              </td>
+
+               <td width="75" height="75" class="linkswbrdr2" onclick="javascript:window.open('dashboard1.aspx','_self')" id="BackLink" runat="server">
+             <table width="70" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="center"><img src="images/blocknotes_2.png" alt="" width="31" height="31" onclick="javascript:window.open('dashboard1.aspx', '_self'"/></td>
+                  </tr>
+                  <tr>
+                    <td height="20" align="center" valign="bottom" class="linkswbrdr_font">BACK</td>
+                  </tr>
+            </table>
+
+            </td>
+         
+
+
+
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+
+   
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <table align="center" cellpadding="0" cellspacing="0" class="btm_01">
+        <%--<a href="Order.aspx.cs">Order.aspx.cs</a>--%>
+        <tr>
+            <td align="center" class="btm_02">DELTONE CRM VERSION 1.0 &nbsp;|&nbsp; COPYRIGHT © 2015 IMPROVATA &nbsp;|&nbsp; ALL RIGHTS <a href="Order.aspx.designer.cs">Order.aspx.designer.cs</a>
+                RESERVED</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+</body>
+</html>

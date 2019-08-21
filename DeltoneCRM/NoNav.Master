@@ -1,0 +1,221 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="NoNav.master.cs" Inherits="DeltoneCRM.NoNav" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/Overall.css" rel="stylesheet"/>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+    
+    <style type="text/css">
+        .btm_01 {
+            width: 100%;
+        }
+        .pwddiv {
+            width: 300px;
+            height: 300px;
+            border: 1px rgb(196, 196, 196) solid;
+            border-top-color: #eb473d;
+            background: #eb473d;
+            position: absolute;
+            top: 30px;
+            right: 22%;
+            z-index: 120;
+        }
+
+         .alarm-btn-style {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            color: #fff;
+            background-color: #602040;
+            font-weight: 600;
+            text-align: center;
+        }
+
+            .alarm-btn-style:hover {
+                color: #fff;
+                background-color: #391326;
+                cursor: pointer;
+            }
+
+            .targetConfig{
+                font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    color: #fff;
+    /* background-color: #602040; */
+    font-weight: 800;
+    text-align: center;
+            }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#passreset').hide();
+
+            $('#pwdrst').click(function () {
+                $('#passreset').show();
+            });
+
+            $('#closediv').click(function () {
+                $('#passreset').hide();
+            });
+
+            //$('#findcustomerorder').autocomplete({
+            //    source: "Fetch/FetchSearchOrder.aspx",
+            //    select: function (event, ui) {
+            //        //window.open('ConpanyInfo.aspx?companyid=' + ui.item.id);
+            //        // $('#CompanyContactTR').show();
+            //        // $('#CompanyContactiFrame').attr('src', 'CompanyContactInfo.aspx?cid=' + ui.item.id);
+            //        var valsSPLIT = ui.item.id.split(',');;
+
+            //        var url = 'order.aspx?Oderid=' + (valsSPLIT[0]) + '&cid=' + (valsSPLIT[2])
+            //                + '&Compid=' + (valsSPLIT[1]);
+            //        window.open(url, "_blank");
+            //        $(this).val(''); return false;
+
+
+            //    }
+            //});
+        });
+
+
+        function OpenWindow() {
+            $('#addDialogCsPopNotify').dialog('open');
+            // alert("test");
+        }
+
+        //  window.setInterval("notifyMe();", 30000);
+
+        function CloseWindow() {
+            $('#addDialogCsPopNotify').dialog('close');
+
+        }
+
+        //  window.setTimeout("CloseWindow();", 10000);  // one minute.
+
+
+
+        function notifyMe() {
+            // Let's check if the browser supports notifications
+            if (!("Notification" in window)) {
+                alert("This browser does not support desktop notification");
+            }
+
+                // Let's check if the user is okay to get some notification
+            else if (Notification.permission === "granted") {
+                // If it's okay let's create a notification
+                var options = {
+                    body: "This is the body of the notification dasf asdf asdf fasdf asdf asdf sdfsadfasdfsdf sadfasdf ",
+                    icon: "Images/btn_03.png",
+                    dir: "ltr",
+                    requireInteraction: true
+                };
+                var notification = new Notification("Hi there", options);
+
+                setTimeout(function () {
+                    notification.close();
+                }, 60000);
+            }
+
+                // Otherwise, we need to ask the user for permission
+                // Note, Chrome does not implement the permission static property
+                // So we have to check for NOT 'denied' instead of 'default'
+            else if (Notification.permission !== 'denied') {
+                Notification.requestPermission(function (permission) {
+                    // Whatever the user answers, we make sure we store the information
+                    if (!('permission' in Notification)) {
+                        Notification.permission = permission;
+                    }
+
+                    // If the user is okay, let's create a notification
+                    if (permission === "granted") {
+                        var options = {
+                            body: "This is the body of the notification",
+                            icon: "Images/btn_03.png",
+                            dir: "ltr"
+                        };
+                        var notification = new Notification("Hi there", options);
+
+                        setTimeout(function () {
+                            notification.close();
+                        }, 60000);
+                    }
+                });
+            }
+
+            // At last, if the user already denied any notification, and you
+            // want to be respectful there is no need to bother them any more.
+        }
+
+    </script>
+    
+    </head>
+<body>
+
+    <form id="form1" runat="server">
+
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" id="masterpageTableNo">
+
+
+  <tr>
+     
+    <td height="30" align="center" bgcolor="#eb473d"><table width="980" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+           <td width="30" height="30" align="center" valign="middle" class="alarm-btn-style">
+                <a href="../CalendarFull.aspx" style="color: white; text-decoration: none;text-align:center">EVENTS</a>
+               </td>
+        
+        <td align="right" class="UpperTitleBar"><asp:Label id="lbWelComeMsg" runat="server"></asp:Label></td>
+
+            <td width="10"></td>
+            <td width="80" align="left" class="alarm-btn-style" id="searchtd" runat="server" visible="false">
+                                <span>
+                                    Search Order Number
+                                </span>
+                                <input name="findcustomerorder" type="text" 
+                                    id="findcustomerorder" size="30" autocomplete="off"/>
+                            </td>
+          
+           
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="60" align="center" bgcolor="#3e3e42"><table width="980" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><img src="images/logo_caps_white.png" alt="" width="150" height="30" /></td>
+        <td width="500">&nbsp;</td>
+           <td width="80" align="left" class="targetConfig" id="displaytargettd" style="display:none;width:600px;">
+                                <span id="configtargetTitle">
+                                    
+                                </span>
+                                <span id="configamount">
+
+                                </span>
+                            </td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+
+   
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <table align="center" cellpadding="0" cellspacing="0" class="btm_01">
+
+        <tr>
+            <td align="center" class="btm_02">DELTONE CRM VERSION 1.0 &nbsp;|&nbsp; COPYRIGHT © 2015 IMPROVATA &nbsp;|&nbsp; ALL RIGHTS 
+                RESERVED</td>
+        </tr>
+       
+    </table>
+</body>
+</html>

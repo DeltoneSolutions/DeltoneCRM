@@ -1,0 +1,77 @@
+2018-10-04 09:31:08,119 [8] ERROR DeltoneCRM_DAL.CallNDataHandler - Error occurred while accessing CALLN APISystem.AggregateException: One or more errors occurred. ---> System.Runtime.InteropServices.SEHException: External component has thrown an exception.
+   at Microsoft.Win32.Win32Native.CloseHandle(IntPtr handle)
+   at Microsoft.Win32.SafeHandles.SafeWaitHandle.ReleaseHandle()
+   at System.Runtime.InteropServices.SafeHandle.InternalDispose()
+   at System.Runtime.InteropServices.SafeHandle.Dispose(Boolean disposing)
+   at System.Runtime.InteropServices.SafeHandle.Close()
+   at System.Threading.WaitHandle.Dispose(Boolean explicitDisposing)
+   at System.Threading.WaitHandle.Close()
+   at System.Net.AutoWebProxyScriptEngine.ListenForRegistryHelper(SafeRegistryHandle& key, AutoResetEvent& changeEvent, IntPtr baseKey, String subKey)
+   at System.Net.AutoWebProxyScriptEngine.CheckForChanges(Int32& syncStatus)
+   at System.Net.AutoWebProxyScriptEngine.GetProxies(Uri destination, IList`1& proxyList, Int32& syncStatus)
+   at System.Net.WebProxy.GetProxiesAuto(Uri destination, Int32& syncStatus)
+   at System.Net.ProxyScriptChain.GetNextProxy(Uri& proxy)
+   at System.Net.ProxyChain.ProxyEnumerator.MoveNext()
+   at System.Net.ServicePointManager.FindServicePoint(Uri address, IWebProxy proxy, ProxyChain& chain, HttpAbortDelegate& abortDelegate, Int32& abortState)
+   at System.Net.HttpWebRequest.FindServicePoint(Boolean forceFind)
+   at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+   at System.Net.Http.HttpClientHandler.StartGettingResponse(RequestState state)
+   at System.Net.Http.HttpClientHandler.StartRequest(Object obj)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at DeltoneCRM_DAL.CallNDataHandler.CallResult(String serviceUrl, HttpClient client) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM-DAL\CallNDataHandler.cs:line 67
+---> (Inner Exception #0) System.Runtime.InteropServices.SEHException (0x80004005): External component has thrown an exception.
+   at Microsoft.Win32.Win32Native.CloseHandle(IntPtr handle)
+   at Microsoft.Win32.SafeHandles.SafeWaitHandle.ReleaseHandle()
+   at System.Runtime.InteropServices.SafeHandle.InternalDispose()
+   at System.Runtime.InteropServices.SafeHandle.Dispose(Boolean disposing)
+   at System.Runtime.InteropServices.SafeHandle.Close()
+   at System.Threading.WaitHandle.Dispose(Boolean explicitDisposing)
+   at System.Threading.WaitHandle.Close()
+   at System.Net.AutoWebProxyScriptEngine.ListenForRegistryHelper(SafeRegistryHandle& key, AutoResetEvent& changeEvent, IntPtr baseKey, String subKey)
+   at System.Net.AutoWebProxyScriptEngine.CheckForChanges(Int32& syncStatus)
+   at System.Net.AutoWebProxyScriptEngine.GetProxies(Uri destination, IList`1& proxyList, Int32& syncStatus)
+   at System.Net.WebProxy.GetProxiesAuto(Uri destination, Int32& syncStatus)
+   at System.Net.ProxyScriptChain.GetNextProxy(Uri& proxy)
+   at System.Net.ProxyChain.ProxyEnumerator.MoveNext()
+   at System.Net.ServicePointManager.FindServicePoint(Uri address, IWebProxy proxy, ProxyChain& chain, HttpAbortDelegate& abortDelegate, Int32& abortState)
+   at System.Net.HttpWebRequest.FindServicePoint(Boolean forceFind)
+   at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+   at System.Net.Http.HttpClientHandler.StartGettingResponse(RequestState state)
+   at System.Net.Http.HttpClientHandler.StartRequest(Object obj)<---
+
+2018-10-04 09:44:11,822 [15] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'ORDER'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at DeltoneCRM.Fetch.getpersonalaccounts.ReturnPersonalAccounts() in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Fetch\getpersonalaccounts.aspx.cs:line 33
+   at DeltoneCRM.Fetch.getpersonalaccounts.Page_Load(Object sender, EventArgs e) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Fetch\getpersonalaccounts.aspx.cs:line 19
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:fc0bfd07-d155-44a9-9ab8-6c57ab7ccef9
+Error Number:156,State:1,Class:15
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.fetch_getpersonalaccounts_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_fux3tztf.66.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-10-04 12:03:38,357 [32] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :sampleTest Order Id 16144
+2018-10-04 12:04:52,303 [35] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :sampleTest Order Id 16145

@@ -1,0 +1,15 @@
+2018-09-21 09:35:36,530 [9] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :sampleTest Order Id 16140
+2018-09-21 09:36:02,617 [7] INFO  DeltoneCRM_DAL.OrderDAL - Message Dts :DTS-25114 Order Id : 16140 Contact Id18454
+2018-09-21 09:36:10,483 [7] INFO  DeltoneCRM.WebForm1 - Inhouse Email Notification  :DTS-25114
+2018-09-21 10:31:02,199 [85] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :sampleTest Order Id 16141
+2018-09-21 11:22:12,709 [62] ERROR DeltoneCRM.Global - Application error :System.Web.HttpCompileException (0x80004005): c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Order.aspx(2003): error CS0103: The name 'approvedOrder' does not exist in the current context
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

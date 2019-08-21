@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="FetchPromoItems.aspx.cs" Inherits="DeltoneCRM.Fetch.FetchPromoItems" %>

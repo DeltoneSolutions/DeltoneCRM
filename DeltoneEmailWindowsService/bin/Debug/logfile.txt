@@ -1,0 +1,54 @@
+26/07/2017 10:30:47 AM:Started Deltone Email service.
+26/07/2017 10:31:17 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:31:47 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:32:17 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:32:47 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:33:17 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:33:47 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:34:17 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:34:47 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:35:17 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:35:47 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:36:17 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:36:47 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:37:17 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:37:41 AM:Stopped  Deltone Email service.
+26/07/2017 10:37:44 AM:Started Deltone Email service.
+26/07/2017 10:38:14 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:38:44 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:39:14 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:39:44 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:40:14 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:40:44 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:41:14 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:41:44 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:42:14 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:42:44 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:43:14 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:43:44 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:44:14 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:44:44 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:45:14 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:45:21 AM:Stopped  Deltone Email service.
+26/07/2017 10:51:10 AM:Started Deltone Email service.
+26/07/2017 10:51:40 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:52:10 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:52:40 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:54:01 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:54:31 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:55:01 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:55:31 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:56:01 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:56:31 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:57:01 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:57:31 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:58:01 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:58:31 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:59:01 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 10:59:31 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 11:00:01 AM:Error Occurred.Configuration system failed to initialize
+26/07/2017 11:00:19 AM:Stopped  Deltone Email service.
+26/07/2017 11:01:26 AM:Started Deltone Email service.
+26/07/2017 11:16:01 AM:Stopped  Deltone Email service.
+26/07/2017 11:17:21 AM:Started Deltone Email service.
+26/07/2017 11:30:00 AM:Stopped  Deltone Email service.

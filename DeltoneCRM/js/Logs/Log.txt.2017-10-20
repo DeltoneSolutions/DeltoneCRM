@@ -1,0 +1,59 @@
+2017-10-20 10:37:30,387 [48] ERROR DeltoneCRM.Global - Application error :System.Web.HttpException (0x80004005): The file '/CreditNotes/rmatracking.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-10-20 10:55:38,717 [46] INFO  DeltoneCRM.WebForm1 - Message UpdateCredit SendPoBOX method<!DOCTYPE HTML PUBLIC ' -//W3C//DTD HTML 3.2//EN'><html><body style='font-family:Calibri;'><table align='center' cellpadding='0' cellspacing='0' width='100%'><tr><td><table  cellpadding='0' cellspacing='0' width='780px' height='85px'>Dear Carolyn, <br/>Thank you for contacting Deltone Solutions Pty Ltd regarding Order DTS-10244. 
+                                    We are sorry to hear that you are having trouble with the items you purchased. <br/><br/>So that we can track this case we have created an RMA (return merchandise authorisation) 
+                                in our system. Your unique RMA Number is CN-13509 .Please state this number in all future correspondence relating to this matter. <br/> <br/><strong> Return Instructions </strong> :<br/>
+ 1.Please package the item carefully so that no further damage is done during return shipping.
+  <br/>2.Please clearly mark the outer carton with your RMA Number is CN-13509 <br/>  3.Please send the item to:  PO BOX 1041, CLAYTON SOUTH. VIC 3169 or A3 Hallmarc Business Park, 2A Westall Rd. CLAYTON SOUTH. VIC 3169.</td></tr><tr><td>&nbsp;</td></tr><tr><td><table style='width:720px;'><tr><tr><td style='width:320px;text-align:left;font-family:Calibri;color:red;'><span style:'color:red !important;font-family:Calibri;'><br/>Please Note:
+This RMA number is only approved for the next 14 days, goods must be returned within the required time frame and only the 
+following listed below are approved for a return. Any prodcts returned that aren’t listed below or pass the 14 days will not be credited.</span></tr><tr><td style='width:320px;text-align:left;font-family:Calibri;'>1*3130 Black Premium Toner( 60-DE3130B ) </td></tr><tr><td style='width:320px;text-align:left;font-family:Calibri;'>1*3130 Magenta Premium Toner( 60-DE3130M ) </td></tr><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr><tr><td style='font-family:Calibri;'>KIND REGARDS</td></tr><tr><td>&nbsp;
+     </td></tr><tr><td style='font-family:Calibri;'> <strong>Returns Department</strong></td></tr><tr><td style='font-family:Calibri;'><strong>1300 787 783</strong></td></tr><tr><td>&nbsp;</td></tr><tr><td style='font-family:Calibri;'><img src="cid:bottombanner" height='105' width='550'></td></tr></table></td></tr><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr></table></body></html>
+2017-10-20 15:03:38,594 [46] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DeltoneCRM.Fetch.FetchAllCreditNotes.ReturnCreditNotes(Int32 status) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Fetch\FetchAllCreditNotes.aspx.cs:line 122
+   at DeltoneCRM.Fetch.FetchAllCreditNotes.Page_Load(Object sender, EventArgs e) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Fetch\FetchAllCreditNotes.aspx.cs:line 32
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.fetch_fetchallcreditnotes_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_sqoqjj1n.30.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-10-20 15:03:42,647 [56] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.creditnotes_allcreditnotes_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_allcreditnotes.aspx.1cfe5f1c.dfa0_jn6.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-10-20 16:06:43,711 [55] INFO  DeltoneCRM.WebForm1 - Message UpdateCredit SendPoBOX method<!DOCTYPE HTML PUBLIC ' -//W3C//DTD HTML 3.2//EN'><html><body style='font-family:Calibri;'><table align='center' cellpadding='0' cellspacing='0' width='100%'><tr><td><table  cellpadding='0' cellspacing='0' width='780px' height='85px'>Dear TestContact, <br/>Thank you for contacting Deltone Solutions Pty Ltd regarding Order DTS-17283. 
+                                    We are sorry to hear that you are having trouble with the items you purchased. <br/><br/>So that we can track this case we have created an RMA (return merchandise authorisation) 
+                                in our system. Your unique RMA Number is CN-17304 .Please state this number in all future correspondence relating to this matter. <br/> <br/><strong> Return Instructions </strong> :<br/>
+ 1.Please package the item carefully so that no further damage is done during return shipping.
+  <br/>2.Please clearly mark the outer carton with your RMA Number is CN-17304 <br/>  3.Please send the item to:  PO BOX 1041, CLAYTON SOUTH. VIC 3169 or A3 Hallmarc Business Park, 2A Westall Rd. CLAYTON SOUTH. VIC 3169.</td></tr><tr><td>&nbsp;</td></tr><tr><td><table style='width:720px;'><tr><tr><td style='width:320px;text-align:left;font-family:Calibri;color:red;'><span style:'color:red !important;font-family:Calibri;'><br/>Please Note:
+This RMA number is only approved for the next 14 days, goods must be returned within the required time frame and only the 
+following listed below are approved for a return. Any prodcts returned that aren’t listed below or pass the 14 days will not be credited.</span></tr><tr><td style='width:320px;text-align:left;font-family:Calibri;'>1*LC135XL Magenta Inkjet Cartridge( PB-135MXL ) </td></tr><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr><tr><td style='font-family:Calibri;'>KIND REGARDS</td></tr><tr><td>&nbsp;
+     </td></tr><tr><td style='font-family:Calibri;'> <strong>Returns Department</strong></td></tr><tr><td style='font-family:Calibri;'><strong>1300 787 783</strong></td></tr><tr><td>&nbsp;</td></tr><tr><td style='font-family:Calibri;'><img src="cid:bottombanner" height='105' width='550'></td></tr></table></td></tr><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr></table></body></html>

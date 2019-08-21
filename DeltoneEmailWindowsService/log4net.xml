@@ -1,0 +1,17 @@
+﻿<log4net>
+  <appender name="RollingFile" type="log4net.Appender.RollingFileAppender">
+    <file value="Logs\\Log.txt"/>
+    <appendToFile value="true"/>
+    <maximumFileSize value="256KB"/>
+    <maxSizeRollBackups value="10"/>
+    <!--DEBUG < INFO < WARN < ERROR < FATAL-->
+    <param name="Threshold" value="DEBUG"/>
+    <layout type="log4net.Layout.PatternLayout">
+      <conversionPattern value="%d [%t] %-5p %c - %m%n"/>
+    </layout>
+  </appender>
+  <root>
+    <level value="ALL"/>
+    <appender-ref ref="RollingFile"/>
+  </root>
+</log4net>

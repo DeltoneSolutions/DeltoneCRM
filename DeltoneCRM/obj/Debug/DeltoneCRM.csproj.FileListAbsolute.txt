@@ -1,0 +1,608 @@
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\DeltoneCRM.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\DeltoneCRM.pdb
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\AjaxControlToolkit.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\Antlr3.Runtime.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\AspNet.ScriptManager.jQuery.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.AspNet.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.Core.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OAuth.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OpenId.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\EntityFramework.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\Microsoft.ScriptManager.WebForms.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\Microsoft.Web.Infrastructure.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\System.Web.Optimization.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\System.Web.Providers.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\WebGrease.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\EntityFramework.xml
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.Core.xml
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OAuth.xml
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OpenId.xml
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.AspNet.xml
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\ar\AjaxControlToolkit.resources.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\de\AjaxControlToolkit.resources.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\es\AjaxControlToolkit.resources.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\fr\AjaxControlToolkit.resources.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\he\AjaxControlToolkit.resources.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\hi\AjaxControlToolkit.resources.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\it\AjaxControlToolkit.resources.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\ja\AjaxControlToolkit.resources.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\ko\AjaxControlToolkit.resources.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\pt\AjaxControlToolkit.resources.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\ru\AjaxControlToolkit.resources.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\obj\Debug\DeltoneCRM.dll
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\obj\Debug\DeltoneCRM.pdb
+C:\DeltoneCRM_Dev\DeltoneCRM\DeltoneCRM\obj\Debug\DeltoneCRM.csprojResolveAssemblyReference.cache
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\DeltoneCRM.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\DeltoneCRM.pdb
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\AjaxControlToolkit.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\Antlr3.Runtime.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\AspNet.ScriptManager.jQuery.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.AspNet.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.Core.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OAuth.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OpenId.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\EntityFramework.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\Microsoft.Web.Infrastructure.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\System.Web.Optimization.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\System.Web.Providers.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\WebGrease.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\Xero.Api.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\Xero.Api.Example.Applications.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\Xero.Api.Example.TokenStores.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\XeroApi.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\EntityFramework.xml
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.Core.xml
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OAuth.xml
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OpenId.xml
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.AspNet.xml
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\XeroApi.pdb
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\ar\AjaxControlToolkit.resources.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\de\AjaxControlToolkit.resources.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\es\AjaxControlToolkit.resources.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\fr\AjaxControlToolkit.resources.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\he\AjaxControlToolkit.resources.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\hi\AjaxControlToolkit.resources.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\it\AjaxControlToolkit.resources.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\ja\AjaxControlToolkit.resources.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\ko\AjaxControlToolkit.resources.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\pt\AjaxControlToolkit.resources.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\ru\AjaxControlToolkit.resources.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\obj\Debug\DeltoneCRM.dll
+C:\Deltone_New\DeltoneCRM\DeltoneCRM\obj\Debug\DeltoneCRM.pdb
+C:\DeltoneCRM\DeltoneCRM\bin\DeltoneCRM.dll
+C:\DeltoneCRM\DeltoneCRM\bin\DeltoneCRM.pdb
+C:\DeltoneCRM\DeltoneCRM\bin\Antlr3.Runtime.dll
+C:\DeltoneCRM\DeltoneCRM\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\DeltoneCRM\DeltoneCRM\bin\DeltoneCRM-DAL.dll
+C:\DeltoneCRM\DeltoneCRM\bin\DocumentFormat.OpenXml.dll
+C:\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.AspNet.dll
+C:\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.Core.dll
+C:\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OAuth.dll
+C:\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OpenId.dll
+C:\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\DeltoneCRM\DeltoneCRM\bin\EntityFramework.dll
+C:\DeltoneCRM\DeltoneCRM\bin\EntityFramework.SqlServer.dll
+C:\DeltoneCRM\DeltoneCRM\bin\itextsharp.dll
+C:\DeltoneCRM\DeltoneCRM\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\DeltoneCRM\DeltoneCRM\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+C:\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.Unity.dll
+C:\DeltoneCRM\DeltoneCRM\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\DeltoneCRM\DeltoneCRM\bin\Microsoft.ScriptManager.WebForms.dll
+C:\DeltoneCRM\DeltoneCRM\bin\Microsoft.Web.Infrastructure.dll
+C:\DeltoneCRM\DeltoneCRM\bin\nunit.framework.dll
+C:\DeltoneCRM\DeltoneCRM\bin\System.Data.SQLite.dll
+C:\DeltoneCRM\DeltoneCRM\bin\System.Data.SQLite.EF6.dll
+C:\DeltoneCRM\DeltoneCRM\bin\System.Data.SQLite.Linq.dll
+C:\DeltoneCRM\DeltoneCRM\bin\System.Web.Optimization.dll
+C:\DeltoneCRM\DeltoneCRM\bin\System.Web.Providers.dll
+C:\DeltoneCRM\DeltoneCRM\bin\WebGrease.dll
+C:\DeltoneCRM\DeltoneCRM\bin\Xero.Api.dll
+C:\DeltoneCRM\DeltoneCRM\bin\Xero.Api.Example.Applications.dll
+C:\DeltoneCRM\DeltoneCRM\bin\Xero.Api.Example.TokenStores.dll
+C:\DeltoneCRM\DeltoneCRM\bin\XeroApi.dll
+C:\DeltoneCRM\DeltoneCRM\bin\XeroApi.Validation.dll
+C:\DeltoneCRM\DeltoneCRM\bin\DeltoneCRM-DAL.pdb
+C:\DeltoneCRM\DeltoneCRM\bin\EntityFramework.xml
+C:\DeltoneCRM\DeltoneCRM\bin\EntityFramework.SqlServer.xml
+C:\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+C:\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.Unity.xml
+C:\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\DeltoneCRM\DeltoneCRM\bin\nunit.framework.xml
+C:\DeltoneCRM\DeltoneCRM\bin\System.Data.SQLite.xml
+C:\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.Core.xml
+C:\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OAuth.xml
+C:\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OpenId.xml
+C:\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.AspNet.xml
+C:\DeltoneCRM\DeltoneCRM\bin\XeroApi.pdb
+C:\DeltoneCRM\DeltoneCRM\bin\XeroApi.Validation.pdb
+C:\DeltoneCRM\DeltoneCRM\obj\Debug\DeltoneCRM.csprojResolveAssemblyReference.cache
+C:\DeltoneCRM\DeltoneCRM\obj\Debug\DeltoneCRM.dll
+C:\DeltoneCRM\DeltoneCRM\obj\Debug\DeltoneCRM.pdb
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\DeltoneCRM.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\DeltoneCRM.pdb
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\Antlr3.Runtime.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\DeltoneCRM-DAL.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\DocumentFormat.OpenXml.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.AspNet.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.Core.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OAuth.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OpenId.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\EntityFramework.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\EntityFramework.SqlServer.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\itextsharp.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.Unity.Configuration.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.Unity.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\Microsoft.ScriptManager.WebForms.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\Microsoft.Web.Infrastructure.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\nunit.framework.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\System.Data.SQLite.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\System.Data.SQLite.EF6.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\System.Data.SQLite.Linq.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\System.Web.Optimization.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\System.Web.Providers.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\WebGrease.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\Xero.Api.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\Xero.Api.Example.Applications.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\Xero.Api.Example.TokenStores.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\XeroApi.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\XeroApi.Validation.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\DeltoneCRM-DAL.pdb
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\EntityFramework.xml
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\EntityFramework.SqlServer.xml
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.Unity.xml
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.Unity.Configuration.xml
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\nunit.framework.xml
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\System.Data.SQLite.xml
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.Core.xml
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OAuth.xml
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OpenId.xml
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.AspNet.xml
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\XeroApi.pdb
+E:\WebProjects\DeltoneCRM\DeltoneCRM\bin\XeroApi.Validation.pdb
+E:\WebProjects\DeltoneCRM\DeltoneCRM\obj\Debug\DeltoneCRM.csprojResolveAssemblyReference.cache
+E:\WebProjects\DeltoneCRM\DeltoneCRM\obj\Debug\DeltoneCRM.dll
+E:\WebProjects\DeltoneCRM\DeltoneCRM\obj\Debug\DeltoneCRM.pdb
+W:\DeltoneCRM\DeltoneCRM\bin\DeltoneCRM.dll.config
+W:\DeltoneCRM\DeltoneCRM\bin\DeltoneCRM.dll
+W:\DeltoneCRM\DeltoneCRM\bin\DeltoneCRM.pdb
+W:\DeltoneCRM\DeltoneCRM\bin\Antlr3.Runtime.dll
+W:\DeltoneCRM\DeltoneCRM\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+W:\DeltoneCRM\DeltoneCRM\bin\DeltoneCRM-DAL.dll
+W:\DeltoneCRM\DeltoneCRM\bin\DocumentFormat.OpenXml.dll
+W:\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.AspNet.dll
+W:\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.Core.dll
+W:\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OAuth.Consumer.dll
+W:\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OAuth.dll
+W:\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OpenId.dll
+W:\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+W:\DeltoneCRM\DeltoneCRM\bin\EntityFramework.dll
+W:\DeltoneCRM\DeltoneCRM\bin\EntityFramework.SqlServer.dll
+W:\DeltoneCRM\DeltoneCRM\bin\itextsharp.dll
+W:\DeltoneCRM\DeltoneCRM\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+W:\DeltoneCRM\DeltoneCRM\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+W:\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+W:\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+W:\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.Unity.Configuration.dll
+W:\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.Unity.dll
+W:\DeltoneCRM\DeltoneCRM\bin\Microsoft.ScriptManager.MSAjax.dll
+W:\DeltoneCRM\DeltoneCRM\bin\Microsoft.ScriptManager.WebForms.dll
+W:\DeltoneCRM\DeltoneCRM\bin\Microsoft.Web.Infrastructure.dll
+W:\DeltoneCRM\DeltoneCRM\bin\nunit.framework.dll
+W:\DeltoneCRM\DeltoneCRM\bin\System.Data.SQLite.dll
+W:\DeltoneCRM\DeltoneCRM\bin\System.Data.SQLite.EF6.dll
+W:\DeltoneCRM\DeltoneCRM\bin\System.Data.SQLite.Linq.dll
+W:\DeltoneCRM\DeltoneCRM\bin\System.Web.Optimization.dll
+W:\DeltoneCRM\DeltoneCRM\bin\System.Web.Providers.dll
+W:\DeltoneCRM\DeltoneCRM\bin\WebGrease.dll
+W:\DeltoneCRM\DeltoneCRM\bin\Xero.Api.dll
+W:\DeltoneCRM\DeltoneCRM\bin\Xero.Api.Example.Applications.dll
+W:\DeltoneCRM\DeltoneCRM\bin\Xero.Api.Example.TokenStores.dll
+W:\DeltoneCRM\DeltoneCRM\bin\XeroApi.dll
+W:\DeltoneCRM\DeltoneCRM\bin\XeroApi.Validation.dll
+W:\DeltoneCRM\DeltoneCRM\bin\DeltoneCRM-DAL.pdb
+W:\DeltoneCRM\DeltoneCRM\bin\EntityFramework.xml
+W:\DeltoneCRM\DeltoneCRM\bin\EntityFramework.SqlServer.xml
+W:\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+W:\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+W:\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.Unity.xml
+W:\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.Unity.Configuration.xml
+W:\DeltoneCRM\DeltoneCRM\bin\nunit.framework.xml
+W:\DeltoneCRM\DeltoneCRM\bin\System.Data.SQLite.xml
+W:\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.Core.xml
+W:\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OAuth.xml
+W:\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OAuth.Consumer.xml
+W:\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OpenId.xml
+W:\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+W:\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.AspNet.xml
+W:\DeltoneCRM\DeltoneCRM\bin\XeroApi.pdb
+W:\DeltoneCRM\DeltoneCRM\bin\XeroApi.Validation.pdb
+W:\DeltoneCRM\DeltoneCRM\obj\Debug\DeltoneCRM.csprojResolveAssemblyReference.cache
+W:\DeltoneCRM\DeltoneCRM\obj\Debug\DeltoneCRM.dll
+W:\DeltoneCRM\DeltoneCRM\obj\Debug\DeltoneCRM.pdb
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\DeltoneCRM.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\DeltoneCRM.pdb
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\Antlr3.Runtime.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\DeltoneCRM-DAL.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\DocumentFormat.OpenXml.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.AspNet.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.Core.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OAuth.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OpenId.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\EntityFramework.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\EntityFramework.SqlServer.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\itextsharp.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.Unity.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\Microsoft.Web.Infrastructure.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\nunit.framework.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\System.Data.SQLite.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\System.Data.SQLite.EF6.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\System.Data.SQLite.Linq.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\System.Web.Optimization.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\System.Web.Providers.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\WebGrease.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\Xero.Api.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\Xero.Api.Example.Applications.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\Xero.Api.Example.TokenStores.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\XeroApi.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\XeroApi.Validation.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\DeltoneCRM-DAL.pdb
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\EntityFramework.xml
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\EntityFramework.SqlServer.xml
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.Unity.xml
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\nunit.framework.xml
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\System.Data.SQLite.xml
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.Core.xml
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OAuth.xml
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OpenId.xml
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.AspNet.xml
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\XeroApi.pdb
+C:\Temp\DeltoneCRM\DeltoneCRM\bin\XeroApi.Validation.pdb
+C:\Temp\DeltoneCRM\DeltoneCRM\obj\Debug\DeltoneCRM.csprojResolveAssemblyReference.cache
+C:\Temp\DeltoneCRM\DeltoneCRM\obj\Debug\DeltoneCRM.dll
+C:\Temp\DeltoneCRM\DeltoneCRM\obj\Debug\DeltoneCRM.pdb
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\DeltoneCRM.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\DeltoneCRM.pdb
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\Antlr3.Runtime.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\DeltoneCRM-DAL.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\DocumentFormat.OpenXml.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.AspNet.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.Core.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.OAuth.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.OpenId.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\EntityFramework.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\EntityFramework.SqlServer.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\itextsharp.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.Practices.Unity.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.Web.Infrastructure.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\nunit.framework.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\System.Data.SQLite.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\System.Data.SQLite.EF6.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\System.Data.SQLite.Linq.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\System.Web.Optimization.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\System.Web.Providers.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\WebGrease.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\Xero.Api.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\Xero.Api.Example.Applications.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\Xero.Api.Example.TokenStores.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\XeroApi.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\XeroApi.Validation.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\DeltoneCRM-DAL.pdb
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\EntityFramework.xml
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\EntityFramework.SqlServer.xml
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.Practices.Unity.xml
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\nunit.framework.xml
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\System.Data.SQLite.xml
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.Core.xml
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.OAuth.xml
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.OpenId.xml
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.AspNet.xml
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\XeroApi.pdb
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\bin\XeroApi.Validation.pdb
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\obj\Debug\DeltoneCRM.csprojResolveAssemblyReference.cache
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\obj\Debug\DeltoneCRM.dll
+C:\Temp\DeltoneCRM - Test\DeltoneCRM\obj\Debug\DeltoneCRM.pdb
+H:\DeltoneCRM - Test\DeltoneCRM\bin\DeltoneCRM.dll.config
+H:\DeltoneCRM - Test\DeltoneCRM\bin\DeltoneCRM.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\DeltoneCRM.pdb
+H:\DeltoneCRM - Test\DeltoneCRM\bin\Antlr3.Runtime.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\DeltoneCRM-DAL.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\DocumentFormat.OpenXml.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.AspNet.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.Core.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.OAuth.Consumer.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.OAuth.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.OpenId.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\EntityFramework.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\EntityFramework.SqlServer.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\itextsharp.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.Practices.Unity.Configuration.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.Practices.Unity.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.ScriptManager.MSAjax.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.ScriptManager.WebForms.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.Web.Infrastructure.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\nunit.framework.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\System.Data.SQLite.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\System.Data.SQLite.EF6.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\System.Data.SQLite.Linq.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\System.Web.Optimization.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\System.Web.Providers.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\WebGrease.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\Xero.Api.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\Xero.Api.Example.Applications.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\Xero.Api.Example.TokenStores.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\XeroApi.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\XeroApi.Validation.dll
+H:\DeltoneCRM - Test\DeltoneCRM\bin\DeltoneCRM-DAL.pdb
+H:\DeltoneCRM - Test\DeltoneCRM\bin\EntityFramework.xml
+H:\DeltoneCRM - Test\DeltoneCRM\bin\EntityFramework.SqlServer.xml
+H:\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+H:\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+H:\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.Practices.Unity.xml
+H:\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.Practices.Unity.Configuration.xml
+H:\DeltoneCRM - Test\DeltoneCRM\bin\nunit.framework.xml
+H:\DeltoneCRM - Test\DeltoneCRM\bin\System.Data.SQLite.xml
+H:\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.Core.xml
+H:\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.OAuth.xml
+H:\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.OAuth.Consumer.xml
+H:\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.OpenId.xml
+H:\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+H:\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.AspNet.xml
+H:\DeltoneCRM - Test\DeltoneCRM\bin\XeroApi.pdb
+H:\DeltoneCRM - Test\DeltoneCRM\bin\XeroApi.Validation.pdb
+H:\DeltoneCRM - Test\DeltoneCRM\obj\Debug\DeltoneCRM.csprojResolveAssemblyReference.cache
+H:\DeltoneCRM - Test\DeltoneCRM\obj\Debug\DeltoneCRM.dll
+H:\DeltoneCRM - Test\DeltoneCRM\obj\Debug\DeltoneCRM.pdb
+H:\DeltoneCRM - Test\DeltoneCRM\bin\AspNet.ScriptManager.jQuery.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\DeltoneCRM.dll.config
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\DeltoneCRM.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\DeltoneCRM.pdb
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\Antlr3.Runtime.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\AspNet.ScriptManager.jQuery.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\DeltoneCRM-DAL.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\DocumentFormat.OpenXml.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.AspNet.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.Core.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.OAuth.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.OpenId.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\EntityFramework.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\EntityFramework.SqlServer.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\itextsharp.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.Practices.Unity.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.Web.Infrastructure.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\nunit.framework.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\System.Data.SQLite.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\System.Data.SQLite.EF6.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\System.Data.SQLite.Linq.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\System.Web.Optimization.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\System.Web.Providers.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\WebGrease.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\Xero.Api.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\Xero.Api.Example.Applications.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\Xero.Api.Example.TokenStores.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\XeroApi.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\XeroApi.Validation.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\DeltoneCRM-DAL.pdb
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\EntityFramework.xml
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\EntityFramework.SqlServer.xml
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.Practices.Unity.xml
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\nunit.framework.xml
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\System.Data.SQLite.xml
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.Core.xml
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.OAuth.xml
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.OpenId.xml
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\DotNetOpenAuth.AspNet.xml
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\XeroApi.pdb
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\bin\XeroApi.Validation.pdb
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\obj\Debug\DeltoneCRM.csprojResolveAssemblyReference.cache
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\obj\Debug\DeltoneCRM.dll
+C:\Webprojects\DeltoneCRM - Test\DeltoneCRM\obj\Debug\DeltoneCRM.pdb
+C:\Webprojects\DeltoneCRM\DeltoneCRM\obj\Debug\DeltoneCRM.csprojResolveAssemblyReference.cache
+C:\Webprojects\DeltoneCRM\DeltoneCRM\obj\Debug\DeltoneCRM.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\obj\Debug\DeltoneCRM.pdb
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\DeltoneCRM.dll.config
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\DeltoneCRM.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\DeltoneCRM.pdb
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\Antlr3.Runtime.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\AspNet.ScriptManager.jQuery.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\DeltoneCRM-DAL.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\DocumentFormat.OpenXml.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.AspNet.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.Core.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OAuth.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OpenId.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\EntityFramework.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\EntityFramework.SqlServer.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\itextsharp.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.Unity.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\Microsoft.Web.Infrastructure.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\nunit.framework.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\System.Data.SQLite.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\System.Data.SQLite.EF6.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\System.Data.SQLite.Linq.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\System.Web.Optimization.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\System.Web.Providers.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\WebGrease.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\Xero.Api.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\Xero.Api.Example.Applications.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\Xero.Api.Example.TokenStores.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\XeroApi.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\XeroApi.Validation.dll
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\DeltoneCRM-DAL.pdb
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\EntityFramework.xml
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\EntityFramework.SqlServer.xml
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.Unity.xml
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\nunit.framework.xml
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\System.Data.SQLite.xml
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.Core.xml
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OAuth.xml
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OpenId.xml
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\DotNetOpenAuth.AspNet.xml
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\XeroApi.pdb
+C:\Webprojects\DeltoneCRM\DeltoneCRM\bin\XeroApi.Validation.pdb
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\DeltoneCRM.dll.config
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\DeltoneCRM.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\DeltoneCRM.pdb
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\Antlr3.Runtime.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\AspNet.ScriptManager.jQuery.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\DeltoneCRM-DAL.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\DocumentFormat.OpenXml.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\DotNetOpenAuth.AspNet.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\DotNetOpenAuth.Core.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\DotNetOpenAuth.OAuth.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\DotNetOpenAuth.OpenId.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\EntityFramework.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\EntityFramework.SqlServer.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\itextsharp.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\log4net.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\Microsoft.Practices.Unity.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\Microsoft.ScriptManager.WebForms.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\Microsoft.Web.Infrastructure.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\Newtonsoft.Json.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\nunit.framework.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\System.Data.SQLite.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\System.Data.SQLite.EF6.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\System.Data.SQLite.Linq.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\System.Web.Optimization.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\System.Web.Providers.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\WebGrease.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\Xero.Api.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\Xero.Api.Example.Applications.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\Xero.Api.Example.TokenStores.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\XeroApi.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\XeroApi.Validation.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\DeltoneCRM-DAL.pdb
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\EntityFramework.xml
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\EntityFramework.SqlServer.xml
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\Microsoft.Practices.Unity.xml
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\Newtonsoft.Json.xml
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\nunit.framework.xml
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\System.Data.SQLite.xml
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\DotNetOpenAuth.Core.xml
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\DotNetOpenAuth.OAuth.xml
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\DotNetOpenAuth.OpenId.xml
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\DotNetOpenAuth.AspNet.xml
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\XeroApi.pdb
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\bin\XeroApi.Validation.pdb
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\obj\Debug\DeltoneCRM.csprojResolveAssemblyReference.cache
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\obj\Debug\DeltoneCRM.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\obj\Debug\DeltoneCRM.pdb

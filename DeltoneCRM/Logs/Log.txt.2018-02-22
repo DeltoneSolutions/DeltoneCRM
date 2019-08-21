@@ -1,0 +1,7 @@
+2018-02-22 09:24:51,293 [8] INFO  DeltoneCRM.WebForm1 -  Company Duplicates :Testdouble user name:Dimitri Jayaratne
+2018-02-22 14:41:34,860 [31] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :TestDouble Order Id 12155
+2018-02-22 14:43:02,657 [50] INFO  DeltoneCRM.WebForm1 - Inhouse Email Notification  :DTS-20943
+2018-02-22 14:43:35,394 [50] INFO  DeltoneCRM_DAL.OrderDAL - Message Dts :DTS-20943 Order Id : 12155 Contact Id17872
+2018-02-22 15:04:03,214 [116] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :TestDouble Order Id 12156
+2018-02-22 15:05:19,934 [47] INFO  DeltoneCRM_DAL.OrderDAL - Message Dts :DTS-20947 Order Id : 12156 Contact Id17872
+2018-02-22 15:05:24,967 [47] INFO  DeltoneCRM.WebForm1 - Inhouse Email Notification  :DTS-20947

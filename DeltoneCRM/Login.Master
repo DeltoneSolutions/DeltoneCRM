@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Login.master.cs" Inherits="DeltoneCRM.Login" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <link href="css/smoothness/jquery-ui-1.10.3.custom.css" rel="stylesheet"/>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    </asp:ContentPlaceHolder>
+    <link href="css/Overall.css" rel="stylesheet"/>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'/>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'/>
+    
+    <style type="text/css">
+        .btm_01 {
+            width: 100%;
+        }
+
+    </style>
+    
+    </head>
+<body>
+
+    <form id="form1" runat="server">
+
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="30" align="center" bgcolor="#eb473d"></td>
+  </tr>
+  <tr>
+    <td height="75" align="center" bgcolor="#3e3e42"><table width="980" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="75"><img src="images/logo_caps_white.png" alt="" width="150" height="30" /></td>
+        <td width="500">&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+
+   
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <table align="center" cellpadding="0" cellspacing="0" class="btm_01">
+
+        <tr>
+            <td align="center" class="btm_02">&nbsp;</td>
+        </tr>
+
+        <tr>
+            <td align="center" class="btm_02">DELTONE CRM VERSION 1.0 &nbsp;|&nbsp; COPYRIGHT © 2015 IMPROVATA &nbsp;|&nbsp; ALL RIGHTS 
+                RESERVED</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+</body>
+</html>

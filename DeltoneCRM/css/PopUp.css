@@ -1,0 +1,227 @@
+﻿@charset "utf-8";
+.MainHeader {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+}
+.MainTable {
+	border:1px solid #333;
+	color: #EEEEEE;
+}
+.spacer7px {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 7px;
+}
+.spacerANDline {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 8px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #333;
+}
+.HeadingFont {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	color: #333;
+}
+.NavText {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12px;
+	color: #666;
+	text-decoration: none;
+}
+.WhiteBack {
+	background-color: #FFFFFF;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12px;
+	color: #666;	
+}
+.SubmitButton {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12px;
+	width:100%;
+	border:1px solid #5492DE; 
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 5px 5px 5px 5px; 
+	text-decoration:none; 
+	display:inline-block;
+	font-weight:bold; 
+	color: #FFFFFF;
+ background-color: #3093c7; 
+ background-image: -webkit-gradient(linear, left top, left bottom, from(#93B8E6), to(#5B9AE8));
+ background-image: -webkit-linear-gradient(top, #93B8E6, #5B9AE8);
+ background-image: -moz-linear-gradient(top, #93B8E6, #5B9AE8);
+ background-image: -ms-linear-gradient(top, #93B8E6, #5B9AE8);
+ background-image: -o-linear-gradient(top, #93B8E6, #5B9AE8);
+ background-image: linear-gradient(to bottom, #93B8E6, #5B9AE8);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#93B8E6, endColorstr=#5B9AE8);
+}
+.ClearButton {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12px;
+	width:100%;
+	border:1px solid #EEEEEE; 
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 5px 5px 5px 5px; 
+	text-decoration:none; 
+	display:inline-block;
+	font-weight:bold; 
+	color: #999;
+ background-color: #3093c7; 
+ background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#EDEDED));
+ background-image: -webkit-linear-gradient(top, #FFFFFF, #EDEDED);
+ background-image: -moz-linear-gradient(top, #FFFFFF, #EDEDED);
+ background-image: -ms-linear-gradient(top, #FFFFFF, #EDEDED);
+ background-image: -o-linear-gradient(top, #FFFFFF, #EDEDED);
+ background-image: linear-gradient(to bottom, #FFFFFF, #EDEDED);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FFFFFF, endColorstr=#EDEDED);
+}
+.FormValues {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12px;
+	color: #666;
+	width: 250px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	height: 20px;
+	border-style: solid;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+}
+.FormValues:focus {
+    outline:none;
+    border: 1px solid #93b8e6; 
+    /* create a BIG glow */
+	    box-shadow: 0px 0px 2px #4195fc; 
+    -moz-box-shadow: 0px 0px 2px #4195fc;
+    -webkit-box-shadow: 0px 0px 2px #4195fc;  
+
+}
+.Disclaimer {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 10px;
+	color: #999;
+	text-decoration: none;
+}
+.DropDownBox {
+		font-family: 'PT Sans', sans-serif;
+	font-size: 12px;
+	color: #666;
+	width: 258px;
+
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	border-style:solid;
+	height: 25px;
+	padding-left: 5px;
+}
+
+.DropDownBox:focus {
+    outline:none;
+    border: 1px solid #93b8e6; 
+    /* create a BIG glow */
+	    box-shadow: 0px 0px 2px #4195fc; 
+    -moz-box-shadow: 0px 0px 2px #4195fc;
+    -webkit-box-shadow: 0px 0px 2px #4195fc;  
+
+}
+.Textboxes {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12px;
+	color: #666;
+	width: 180px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	height: 20px;
+	border-style: solid;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+}
+.Textboxes_Error {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12px;
+	color: #666;
+	width: 180px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-color: #F00;
+	border-right-color: #F00;
+	border-bottom-color: #F00;
+	border-left-color: #F00;
+	height: 20px;
+	border-style: solid;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+}
+.Textboxes:focus {
+    outline:none;
+    border: 1px solid #93b8e6; 
+    /* create a BIG glow */
+	    box-shadow: 0px 0px 2px #4195fc; 
+    -moz-box-shadow: 0px 0px 2px #4195fc;
+    -webkit-box-shadow: 0px 0px 2px #4195fc;  
+
+}
+.NotesSection {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12px;
+	color: #666;
+	width: 600px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	height: 100px;
+	border-style: solid;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+}
+
+.FormValues_disabled {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12px;
+	color: #000;
+	width: 250px;
+	height: 20px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	background-color: #FFF;
+	border: 1px solid #FFF;
+}

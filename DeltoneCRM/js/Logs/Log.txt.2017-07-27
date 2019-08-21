@@ -1,0 +1,4 @@
+2017-07-27 10:15:01,811 [43] INFO  DeltoneCRM_DAL.OrderSendEmailDAL -  Email sent paruthi001@gmail.com Order Id: 8126
+2017-07-27 14:15:33,844 [17] INFO  DeltoneCRM_DAL.OrderSendEmailDAL -  Email sent ron@tonerondemand.com.au Order Id: 9704
+2017-07-27 14:25:09,846 [43] INFO  DeltoneCRM_DAL.OrderSendEmailDAL -  Email sent selwyn@ausjetinks.com.au Order Id: 9708
+2017-07-27 14:43:34,884 [50] INFO  DeltoneCRM_DAL.OrderSendEmailDAL -  Email sent selwyn@ausjetinks.com.au Order Id: 9708

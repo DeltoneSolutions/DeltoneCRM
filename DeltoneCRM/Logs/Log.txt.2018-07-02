@@ -1,0 +1,216 @@
+2018-07-02 10:16:07,246 [9] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :sampleTest Order Id 15437
+2018-07-02 10:32:10,879 [28] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :sampleTest Order Id 15438
+2018-07-02 10:39:45,575 [29] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :sampleTest Order Id 15440
+2018-07-02 10:40:06,768 [29] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :sampleTest Order Id 15440
+2018-07-02 10:48:48,178 [19] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> XeroApi.Model.ApiException: The XeroAPI returned an ApiException response: You are attempting to connect to Xero using TLS 1.0 which has been deprecated. Please use a newer TLS version. Please Contact the API support team at api@xero.com for more assistance.
+   at XeroApi.Integration.IntegrationProxy.CallApi(String method, String body, Uri baseUrl, String endpointName, String itemId, Nullable`1 lastModifiedDate, NameValueCollection additionalQueryParams, String acceptMimeType) in n:\w2\861c2b03515ac7b6\source\XeroApi\Integration\IntegrationProxy.cs:line 258
+   at XeroApi.Integration.IntegrationProxy.FindElements(IApiQueryDescription apiQueryDescription) in n:\w2\861c2b03515ac7b6\source\XeroApi\Integration\IntegrationProxy.cs:line 31
+   at XeroApi.Linq.ApiQueryProvider.Execute(Expression expression) in n:\w2\861c2b03515ac7b6\source\XeroApi\Linq\ApiQueryProvider.cs:line 34
+   at XeroApi.Linq.ApiQuery`1.GetEnumerator() in n:\w2\861c2b03515ac7b6\source\XeroApi\Linq\ApiQuery.cs:line 61
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at DeltoneCRM.UploadExcelFile.GetContactXero() in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\UploadExcelFile.aspx.cs:line 604
+   at DeltoneCRM.UploadExcelFile.UploadButtonXero_Click(Object se, EventArgs e) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\UploadExcelFile.aspx.cs:line 592
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.uploadexcelfile_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_uyatqgd2.7.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-07-02 11:31:21,529 [9] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :sampleTest Order Id 15446
+2018-07-02 11:33:29,637 [109] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Data.SqlClient.SqlException (0x80131904): A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The handle is invalid.) ---> System.ComponentModel.Win32Exception (0x80004005): The handle is invalid
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at DeltoneCRM_DAL.CalendarEventDAL.getReminderEvents(Int32 userId) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM-DAL\CalendarEventDAL.cs:line 206
+   at DeltoneCRM.Fetch.FetchCalendarReminder.GetEventReminderByRep() in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Fetch\FetchCalendarReminder.aspx.cs:line 30
+   at DeltoneCRM.Fetch.FetchCalendarReminder.Page_Load(Object sender, EventArgs e) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Fetch\FetchCalendarReminder.aspx.cs:line 19
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:9d70d8da-4cd3-4bec-9ee8-6cf9ed161944
+Error Number:6,State:0,Class:20
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.fetch_fetchcalendarreminder_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_ltbd404i.53.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-07-02 11:35:40,323 [125] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :sampleTest Order Id 15447
+2018-07-02 11:35:53,846 [125] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :sampleTest Order Id 15447
+2018-07-02 11:42:26,904 [12] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :sampleTest Order Id 15449
+2018-07-02 11:48:17,628 [14] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> XeroApi.Model.ApiException: The XeroAPI returned an ApiException response: You are attempting to connect to Xero using TLS 1.0 which has been deprecated. Please use a newer TLS version. Please Contact the API support team at api@xero.com for more assistance.
+   at XeroApi.Integration.IntegrationProxy.CallApi(String method, String body, Uri baseUrl, String endpointName, String itemId, Nullable`1 lastModifiedDate, NameValueCollection additionalQueryParams, String acceptMimeType) in n:\w2\861c2b03515ac7b6\source\XeroApi\Integration\IntegrationProxy.cs:line 258
+   at XeroApi.Integration.IntegrationProxy.FindElements(IApiQueryDescription apiQueryDescription) in n:\w2\861c2b03515ac7b6\source\XeroApi\Integration\IntegrationProxy.cs:line 31
+   at XeroApi.Linq.ApiQueryProvider.Execute(Expression expression) in n:\w2\861c2b03515ac7b6\source\XeroApi\Linq\ApiQueryProvider.cs:line 34
+   at XeroApi.Linq.ApiQuery`1.GetEnumerator() in n:\w2\861c2b03515ac7b6\source\XeroApi\Linq\ApiQuery.cs:line 61
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at DeltoneCRM.UploadExcelFile.GetContactXero() in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\UploadExcelFile.aspx.cs:line 608
+   at DeltoneCRM.UploadExcelFile.UploadButtonXero_Click(Object se, EventArgs e) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\UploadExcelFile.aspx.cs:line 593
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.uploadexcelfile_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_5nxnzj2s.8.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-07-02 11:52:48,018 [33] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :sampleTest Order Id 15451
+2018-07-02 11:55:18,917 [13] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Single.Parse(String s)
+   at DeltoneCRM.Order.btnOrderSubmit_Click(Object sender, EventArgs e) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Order.aspx.cs:line 1100
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.order_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_gcmsgzd5.4.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-07-02 11:55:47,578 [13] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :sampleTest Order Id 15453
+2018-07-02 13:03:11,001 [47] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Data.SqlClient.SqlException (0x80131904): The multi-part identifier "ORC.CreatedDateTime" could not be bound.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at DeltoneCRM.Fetch.FetchAllAccountsForAdmin.ReturnCompanies(String rep) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Fetch\FetchAllAccountsForAdmin.aspx.cs:line 63
+   at DeltoneCRM.Fetch.FetchAllAccountsForAdmin.Page_Load(Object sender, EventArgs e) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\Fetch\FetchAllAccountsForAdmin.aspx.cs:line 20
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:2e0a9575-a64f-4d98-b49b-ef81d6f40c3f
+Error Number:4104,State:1,Class:16
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.fetch_fetchallaccountsforadmin_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_2duyrgm2.34.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-07-02 13:23:54,211 [43] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :sampleTest Order Id 15454
+2018-07-02 13:27:49,235 [12] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :sampleTest Order Id 15455
+2018-07-02 13:35:42,165 [9] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :sampleTest Order Id 15456
+2018-07-02 13:56:36,418 [47] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :sampleTest Order Id 15457
+2018-07-02 13:59:16,582 [11] ERROR DeltoneCRM.Global - Application error :System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.ApplicationException: An HttpWebResponse could not be obtained from the WebException. Status was ReceiveFailure ---> System.Net.WebException: The underlying connection was closed: An unexpected error occurred on a receive. ---> System.ComponentModel.Win32Exception: The client and server cannot communicate, because they do not possess a common algorithm
+   at System.Net.SSPIWrapper.AcquireCredentialsHandle(SSPIInterface SecModule, String package, CredentialUse intent, SecureCredential scc)
+   at System.Net.Security.SecureChannel.AcquireCredentialsHandle(CredentialUse credUsage, SecureCredential& secureCredential)
+   at System.Net.Security.SecureChannel.AcquireClientCredentials(Byte[]& thumbPrint)
+   at System.Net.Security.SecureChannel.GenerateToken(Byte[] input, Int32 offset, Int32 count, Byte[]& output)
+   at System.Net.Security.SecureChannel.NextMessage(Byte[] incoming, Int32 offset, Int32 count)
+   at System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.TlsStream.CallProcessAuthentication(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result)
+   at System.Net.TlsStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.ConnectStream.WriteHeaders(Boolean async)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at DevDefined.OAuth.Consumer.DefaultConsumerRequestRunner.Run(IConsumerRequest consumerRequest) in n:\w2\861c2b03515ac7b6\source\XeroApi\OAuth\Consumer\ConsumerRequestRunner.cs:line 26
+   --- End of inner exception stack trace ---
+   at DevDefined.OAuth.Consumer.DefaultConsumerRequestRunner.Run(IConsumerRequest consumerRequest) in n:\w2\861c2b03515ac7b6\source\XeroApi\OAuth\Consumer\ConsumerRequestRunner.cs:line 71
+   at DevDefined.OAuth.Consumer.OAuthSession.RunConsumerRequest(IConsumerRequest consumerRequest) in n:\w2\861c2b03515ac7b6\source\XeroApi\OAuth\Consumer\OAuthSession.cs:line 412
+   at DevDefined.OAuth.Consumer.ConsumerRequest.ToConsumerResponse() in n:\w2\861c2b03515ac7b6\source\XeroApi\OAuth\Consumer\ConsumerRequest.cs:line 61
+   at XeroApi.Integration.IntegrationProxy.CallApi(String method, String body, Uri baseUrl, String endpointName, String itemId, Nullable`1 lastModifiedDate, NameValueCollection additionalQueryParams, String acceptMimeType) in n:\w2\861c2b03515ac7b6\source\XeroApi\Integration\IntegrationProxy.cs:line 252
+   at XeroApi.Integration.IntegrationProxy.FindElements(IApiQueryDescription apiQueryDescription) in n:\w2\861c2b03515ac7b6\source\XeroApi\Integration\IntegrationProxy.cs:line 31
+   at XeroApi.Linq.ApiQueryProvider.Execute(Expression expression) in n:\w2\861c2b03515ac7b6\source\XeroApi\Linq\ApiQueryProvider.cs:line 34
+   at XeroApi.Linq.ApiQuery`1.GetEnumerator() in n:\w2\861c2b03515ac7b6\source\XeroApi\Linq\ApiQuery.cs:line 61
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at DeltoneCRM.UploadExcelFile.GetContactXero() in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\UploadExcelFile.aspx.cs:line 608
+   at DeltoneCRM.UploadExcelFile.UploadButtonXero_Click(Object se, EventArgs e) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM\UploadExcelFile.aspx.cs:line 593
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.uploadexcelfile_aspx.ProcessRequest(HttpContext context) in c:\Users\Saj\AppData\Local\Temp\Temporary ASP.NET Files\vs\308e42e8\17570b4e\App_Web_wakjaqof.8.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-07-02 14:00:49,781 [55] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :sampleTest Order Id 15459
+2018-07-02 14:06:11,127 [58] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :sampleTest Order Id 15460
+2018-07-02 14:37:00,961 [28] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :sampleTest Order Id 15462
+2018-07-02 14:41:05,034 [27] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :sampleTest Order Id 15465
+2018-07-02 14:42:40,781 [37] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :TestDouble Order Id 12163
+2018-07-02 14:44:00,306 [57] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :TestDouble Order Id 12164
+2018-07-02 15:02:53,047 [12] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :TestDouble Order Id 12165
+2018-07-02 15:04:48,831 [9] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :TestDouble Order Id 12166
+2018-07-02 15:06:06,841 [8] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :TestDouble Order Id 12167
+2018-07-02 15:07:56,983 [14] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :TestDouble Order Id 12168
+2018-07-02 15:16:28,594 [29] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :TestDouble Order Id 12169
+2018-07-02 15:17:09,300 [11] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :TestDouble Order Id 12170
+2018-07-02 15:19:11,171 [33] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :TestDouble Order Id 12171
+2018-07-02 15:30:35,363 [14] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :TestDouble Order Id 12172
+2018-07-02 15:37:29,696 [7] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :TestDouble Order Id 12173
+2018-07-02 15:50:52,634 [34] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :TestDouble Order Id 12174
+2018-07-02 16:08:58,672 [60] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :TestDouble Order Id 12175
+2018-07-02 16:23:02,318 [33] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :TestDouble Order Id 12176
+2018-07-02 17:11:23,498 [56] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :TestDouble Order Id 12177
+2018-07-02 17:13:40,050 [57] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :TestDouble Order Id 12178
+2018-07-02 17:15:01,720 [38] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :TestDouble Order Id 12179
+2018-07-02 17:16:23,851 [11] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :TestDouble Order Id 12180

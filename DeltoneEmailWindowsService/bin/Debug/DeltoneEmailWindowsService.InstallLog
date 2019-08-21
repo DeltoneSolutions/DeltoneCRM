@@ -1,0 +1,97 @@
+﻿Installing assembly 'C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.InstallLog
+   assemblypath = C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.exe
+Installing service DeltoneEmailService...
+Service DeltoneEmailService has been successfully installed.
+Creating EventLog source DeltoneEmailService in log Application...
+Committing assembly 'C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.InstallLog
+   assemblypath = C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.exe
+Uninstalling assembly 'C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.InstallLog
+   assemblypath = C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.exe
+Removing EventLog source DeltoneEmailService.
+Service DeltoneEmailService is being removed from the system...
+Service DeltoneEmailService was successfully removed from the system.
+Attempt to stop service DeltoneEmailService.
+Installing assembly 'C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.InstallLog
+   assemblypath = C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.exe
+Installing service DeltoneEmailService...
+Service DeltoneEmailService has been successfully installed.
+Creating EventLog source DeltoneEmailService in log Application...
+Committing assembly 'C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.InstallLog
+   assemblypath = C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.exe
+Uninstalling assembly 'C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.InstallLog
+   assemblypath = C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.exe
+Removing EventLog source DeltoneEmailService.
+Service DeltoneEmailService is being removed from the system...
+Service DeltoneEmailService was successfully removed from the system.
+Attempt to stop service DeltoneEmailService.
+Installing assembly 'C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.InstallLog
+   assemblypath = C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.exe
+Installing service DeltoneEmailService...
+Service DeltoneEmailService has been successfully installed.
+Creating EventLog source DeltoneEmailService in log Application...
+Committing assembly 'C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.InstallLog
+   assemblypath = C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.exe
+Uninstalling assembly 'C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.InstallLog
+   assemblypath = C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.exe
+Removing EventLog source DeltoneEmailService.
+Service DeltoneEmailService is being removed from the system...
+Service DeltoneEmailService was successfully removed from the system.
+Attempt to stop service DeltoneEmailService.
+Installing assembly 'C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.InstallLog
+   assemblypath = C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.exe
+Installing service DeltoneEmailService...
+Service DeltoneEmailService has been successfully installed.
+Creating EventLog source DeltoneEmailService in log Application...
+Committing assembly 'C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.InstallLog
+   assemblypath = C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.exe
+Uninstalling assembly 'C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.InstallLog
+   assemblypath = C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.exe
+Removing EventLog source DeltoneEmailService.
+Service DeltoneEmailService is being removed from the system...
+Service DeltoneEmailService was successfully removed from the system.
+Attempt to stop service DeltoneEmailService.
+Uninstalling assembly 'C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.InstallLog
+   assemblypath = C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.exe
+Removing EventLog source DeltoneEmailService.
+Service DeltoneEmailService is being removed from the system...
+Service DeltoneEmailService was successfully removed from the system.
+Attempt to stop service DeltoneEmailService.

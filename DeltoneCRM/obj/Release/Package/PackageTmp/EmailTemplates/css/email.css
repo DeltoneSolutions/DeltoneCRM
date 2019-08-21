@@ -1,0 +1,45 @@
+﻿body {
+    background-color: #F7F5F2;
+}
+.emailheader {
+    height: 50px;
+    background-color: #3E3E42;
+    
+}
+.OrderNumberTitle {
+    font-family: 'Droid Sans', sans-serif;
+            font-size: 16px;
+            font-weight:600;
+            color: #3E3E42;
+            text-align: center;
+}
+.ThankYouMessage {
+    font-family: 'Droid Sans', sans-serif;
+            font-size: 12px;
+            font-weight:400;
+            color: #3E3E42;
+            text-align: center;
+}
+.itemheader {
+    font-family: 'Droid Sans', sans-serif;
+            font-size: 12px;
+            font-weight:400;
+            background-color: #56648a;
+            color: white;
+            text-align: center;
+            width: 100px;
+            height: 20px;
+            padding-top: 5px;
+            border-radius: 5px;
+}
+.individualItems_Left {
+     font-family: 'Droid Sans', sans-serif;
+            font-size: 12px;
+            font-weight:400;
+}
+.individualItems_Center {
+     font-family: 'Droid Sans', sans-serif;
+            font-size: 12px;
+            font-weight:400;
+            text-align:center;
+}

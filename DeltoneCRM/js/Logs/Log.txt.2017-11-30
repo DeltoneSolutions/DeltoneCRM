@@ -1,0 +1,2 @@
+2017-11-30 13:57:01,828 [46] INFO  DeltoneCRM.XeroIntergration - Create invoice company name :TestDouble Order Id 9154
+2017-11-30 13:57:38,471 [73] INFO  DeltoneCRM_DAL.OrderDAL - Message Dts :DTS-19526 Order Id : 9154 Contact Id17872

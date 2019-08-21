@@ -1,0 +1,18 @@
+2018-08-08 11:47:44,422 [9] INFO  TaskSchedulerAccountMove.Program - scheduler started
+2018-08-08 11:48:37,511 [1] INFO  TaskSchedulerAccountMove.Program - scheduler started
+2018-08-08 11:59:00,729 [9] INFO  TaskSchedulerAccountMove.Program - scheduler started
+2018-08-08 13:03:14,785 [10] INFO  TaskSchedulerAccountMove.Program - scheduler started
+2018-08-08 13:03:15,081 [10] ERROR TaskSchedulerAccountMove.Program - Error occurred at TaskSchedulerAccountMove method : RunMoveAccoutnHouseSystem.IndexOutOfRangeException: OrderID
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at DeltoneCRM_DAL.AccountMoveHouseDAL.GetLastCompanyNoOrder(Int32 month) in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM-DAL\AccountMoveHouseDAL.cs:line 138
+   at DeltoneCRM_DAL.AccountMoveHouseDAL.MoveRepAccounttoHouseAccount() in c:\WebProjects\DeltoneCRM-GIT\DeltoneCRM-DAL\AccountMoveHouseDAL.cs:line 24
+   at TaskSchedulerAccountMove.Program.RunMoveAccoutnHouse() in c:\WebProjects\DeltoneCRM-GIT\TaskSchedulerAccountMove\Program.cs:line 27
+2018-08-08 13:03:23,167 [10] INFO  TaskSchedulerAccountMove.Program - scheduler started
+2018-08-08 13:04:55,344 [9] INFO  TaskSchedulerAccountMove.Program - scheduler started
+2018-08-08 13:06:20,777 [9] INFO  TaskSchedulerAccountMove.Program - scheduler started
+2018-08-08 13:06:31,081 [9] INFO  TaskSchedulerAccountMove.Program - scheduler started
+2018-08-08 13:09:54,434 [9] INFO  TaskSchedulerAccountMove.Program - scheduler started
+2018-08-08 13:10:57,455 [9] INFO  TaskSchedulerAccountMove.Program - scheduler started
+2018-08-08 13:11:47,140 [9] INFO  TaskSchedulerAccountMove.Program - scheduler started

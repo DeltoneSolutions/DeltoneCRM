@@ -1,0 +1,1782 @@
+﻿body {
+}
+.promo-row1 {
+           background:#cccccc;
+       }
+
+        .width-980-style {
+            width: 980px;
+        }
+        .width-940-style {
+            width: 940px;
+        }
+        .width-770-style {
+            width: 770px;
+        }
+        .width-470-style {
+            width: 470px;
+        }
+        .width-250-style {
+            width: 250px;
+        }
+        .top-table-style {
+         width: 570px;
+        }
+        .align-vertical {
+        vertical-align: top;    
+        }
+        .white-box-outline-top {
+             width: 810px;
+             border: 1px solid #cccccc;
+             background-color: #ffffff
+            }
+        .total {
+            font-family: 'Droid Sans', sans-serif !important;
+            font-size: 12px !important;
+            color: #494949;
+            }
+        .cogtotal {
+            font-family: 'Droid Sans', sans-serif !important;
+            font-size: 12px !important;
+            color: #494949;
+            }
+        .notes-textbox-style {
+            font-family: 'Droid Sans', sans-serif !important;
+            font-size: 12px !important;
+            color: #494949;
+            width: 928px;
+            resize: none;
+            padding: 5px 5px 5px 5px;
+            height: 75px;
+            }
+        .top-payment-terms-heading {
+            width: 150px;
+            height: 30px;
+            background-color: #CCCCCC;
+            border-bottom-color: #ffffff;
+            border-bottom-style: solid;
+            border-bottom-width: 2px;
+            text-align: left;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 11px;
+            color: #494949;
+            font-weight: 400;
+            letter-spacing: -1px;
+        }
+        .all-headings-style {
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 2.1em;
+            color: #6b6b6b;
+            font-weight: 400;
+            letter-spacing: -1px;
+        }
+        .all-subheadings-style {
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 1.8em;
+            color: #494949;
+            font-weight: 400;
+            letter-spacing: -1px;
+        }
+        .company-name-style {
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 2.5em;
+            color: #494949;
+            font-weight: 400;
+            letter-spacing: -1px;
+            vertical-align: top;
+        }
+        .company-details-style {
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 16px;
+            color: #494949;
+            font-weight: 400;
+            letter-spacing: -1px;
+            height: 25px;
+        }
+        .company-details-delivery-style {
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 14px;
+            color: #494949;
+            font-weight: 400;
+            letter-spacing: -1px;
+            height: 20px;
+        }
+        .company-details-tel-style {
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 14px;
+            color: #494949;
+            font-weight: 400;
+            letter-spacing: -1px;
+            height: 20px;
+        }
+        .test-style {
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 13px;
+            color: #ffffff;
+            font-weight:400;
+            letter-spacing: -0.05em;
+        }
+        .white-bg-style {
+            background-color: #ffffff;
+            border: 1px solid #CCCCCC;
+        }
+        .white-bg-no-brdr-style {
+            background-color: #ffffff;
+        }
+        .delivery-add-bg-style {
+            background-color: #eeeeee;
+            width: 290px;
+            vertical-align: top;
+        }
+        .delivery-add-heading-style {
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 12px;
+            color: #494949;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            background-color: #cccccc;
+            height: 30px;
+            width: 290px;
+            padding-left: 20px;
+            border-bottom-color: #ffffff;
+            border-bottom-style: solid;
+            border-bottom-width: 2px;
+        }
+        .commission-bg-style {
+            background-color: #ffffff;
+            border: 1px solid #eb473d;
+            height: 50px;
+        }
+        .add-credit-note-btn {
+            width: 150px;
+            height: 30px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 12px;
+            color: #eb473d;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            border: 1px solid #eb473d;
+            background-color: #ffffff;
+        }
+        .add-credit-note-btn:hover {
+            color: #ffffff;
+            border: 1px solid #eb473d;
+            background-color: #eb473d;
+            cursor: pointer;
+        }
+        .submit-btn {
+            width: 171px;
+            height: 35px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 12px;
+            color: #eb473d;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            border: 1px solid #eb473d;
+            background-color: #ffffff;
+        }
+        .submit-btn:hover {
+            color: #ffffff;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            border: 1px solid #eb473d;
+            background-color: #eb473d;
+            cursor: pointer;
+        }
+        .add-btn {
+            width: 100px;
+            height: 20px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 11px;
+            color: #eb473d;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            border: 1px solid #eb473d;
+            background-color: #ffffff;
+        }
+        .add-btn:hover {
+            color: #ffffff;
+            background-color: #eb473d;
+            cursor:pointer;
+        }
+        .payment-terms-drop {
+            width: 150px;
+            height: 30px;
+            margin-bottom: -1px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 12px;
+            color: #494949;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            border: 2px solid #cde9fe;
+            -webkit-appearance: none;
+            text-align:center;
+            outline: none;
+            background-color: #cde9fe;
+        }
+        .account-owner-drop {
+            width: 150px;
+            height: 30px;
+            margin-bottom: -1px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 12px;
+            color: #494949;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            border: 1px solid #cde9fe;
+            outline: none;
+            -webkit-appearance: none;
+            padding-left: 2px;
+            background-color: #cde9fe;
+        }
+        .tbl01-clm01-style {
+            width: 23px;
+            height: 35px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 11px;
+            color: #000000;
+            text-align:center;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            border-top-width: 1px;
+	        border-right-width: 1px;
+            border-left-width: 1px;
+            border-bottom-width: 2px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+            border-left-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+            border-left-color: #999999;
+            border-bottom-color: #999999;
+            background:#CCCCCC;
+        }
+        .tbl01-clm02-style {
+            width: 399px;
+            height: 35px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 11px;
+            color: #000000;
+            text-align:left;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            background:#CCCCCC;
+            border-top-width: 1px;
+	        border-right-width: 1px;
+            border-bottom-width: 2px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+            border-bottom-color: #999999;
+            padding-left: 5px;
+        }
+        .tbl01-clm03-style {
+            width: 69px;
+            height: 35px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 11px;
+            color: #000000;
+            text-align:left;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            background:#CCCCCC;
+            border-top-width: 1px;
+	        border-right-width: 1px;
+            border-bottom-width: 2px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+            border-bottom-color: #999999;
+            padding-left: 5px;
+        }
+        .tbl01-clm04-style {
+            width: 94px;
+            height: 35px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 11px;
+            color: #000000;
+            text-align:left;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            background:#CCCCCC;
+            border-top-width: 1px;
+	        border-right-width: 1px;
+            border-bottom-width: 2px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+            border-bottom-color: #999999;
+            padding-left: 5px;
+        }
+        .tbl01-clm05-style {
+            width: 69px;
+            height: 35px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 11px;
+            color: #000000;
+            text-align:right;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            background:#CCCCCC;
+            border-top-width: 1px;
+	        border-right-width: 1px;
+            border-bottom-width: 2px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+            border-bottom-color: #999999;
+            padding-right: 5px;
+        }
+        .tbl01-clm06-style {
+            width: 29px;
+            height: 35px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 11px;
+            color: #000000;
+            text-align:right;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            background:#CCCCCC;
+            border-top-width: 1px;
+	        border-right-width: 1px;
+            border-bottom-width: 2px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+            border-bottom-color: #999999;
+            padding-right: 5px;
+        }
+        .tbl01-clm07-style {
+            width: 69px;
+            height: 35px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 11px;
+            color: #000000;
+            text-align:right;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            background:#CCCCCC;
+            border-top-width: 1px;
+	        border-right-width: 1px;
+            border-bottom-width: 2px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+            border-bottom-color: #999999;
+            padding-right: 5px;
+        }
+
+        .tbl01-clm08-style {
+            width: 69px;
+            height: 35px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 11px;
+            color: #000000;
+            text-align:right;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            background:#CCCCCC;
+            border-top-width: 1px;
+	        border-right-width: 1px;
+            border-bottom-width: 2px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+            border-bottom-color: #999999;
+            padding-right: 5px;
+        }
+        .tbl01-clm09-style {
+            width: 69px;
+            height: 35px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 11px;
+            color: #000000;
+            text-align:right;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            background:#CCCCCC;
+            border-top-width: 1px;
+	        border-right-width: 1px;
+            border-bottom-width: 2px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+            border-bottom-color: #999999;
+            padding-right: 5px;
+        }
+        .tbl-auto-row-01 {
+	        height: 25px;
+            width: 23px;
+	        border-top-width: 1px;
+	        border-bottom-width: 1px;
+            border-left-width: 1px;
+            border-right-width: 1px;
+	        border-top-style: solid;
+	        border-bottom-style: solid;
+            border-left-style: solid;
+            border-right-style: solid;
+	        border-top-color: #999999;
+	        border-bottom-color: #999999;
+            border-left-color: #999999;
+            border-right-color: #999999;
+            text-align:center;
+        }
+        .tbl-auto-row-01-btm {
+	        height: 25px;
+            width: 23px;
+	        border-bottom-width: 1px;
+            border-left-width: 1px;
+            border-right-width: 1px;
+	        border-bottom-style: solid;
+            border-left-style: solid;
+            border-right-style: solid;
+	        border-bottom-color: #999999;
+            border-left-color: #999999;
+            border-right-color: #999999;
+            text-align:center;
+        }
+        .tbl-auto-row-02 {
+	        height: 25px;
+            width: 404px;
+	        border-top-width: 1px;
+	        border-bottom-width: 1px;
+            border-right-width: 1px;
+	        border-top-style: solid;
+	        border-bottom-style: solid;
+            border-right-style: solid;
+	        border-top-color: #999999;
+	        border-bottom-color: #999999;
+            border-right-color: #999999;
+        }
+        .tbl-auto-row-02-btm {
+	        height: 25px;
+            width: 404px;
+	        border-bottom-width: 1px;
+            border-right-width: 1px;
+	        border-bottom-style: solid;
+            border-right-style: solid;
+	        border-bottom-color: #999999;
+            border-right-color: #999999;
+        }
+        .tbl-auto-row-02-inside {
+	        height: 23px;
+            width: 397px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 12px;
+            color: #494949;
+            font-weight:400;
+            letter-spacing: -0.05em;
+	        border-top-width: 1px;
+            border-left-width: 1px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+            border-left-style: solid;
+	        border-top-color: #fff;
+	        border-right-color: #fff;
+	        border-bottom-color: #fff;
+            border-left-color: #fff;
+            padding-left: 5px;
+        }
+        .tbl-auto-row-03 {
+	        height: 25px;
+            width: 74px;
+	        border-top-width: 1px;
+	        border-bottom-width: 1px;
+            border-right-width: 1px;
+	        border-top-style: solid;
+	        border-bottom-style: solid;
+            border-right-style: solid;
+	        border-top-color: #999999;
+	        border-bottom-color: #999999;
+            border-right-color: #999999;
+        }
+        .tbl-auto-row-03-btm {
+	        height: 25px;
+            width: 74px;
+	        border-bottom-width: 1px;
+            border-right-width: 1px;
+	        border-bottom-style: solid;
+            border-right-style: solid;
+	        border-bottom-color: #999999;
+            border-right-color: #999999;
+        }
+        .tbl-auto-row-03-inside {
+	        height: 23px;
+            width: 67px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 12px;
+            color: #494949;
+            font-weight:400;
+            letter-spacing: -0.05em;
+	        border-top-width: 1px;
+            border-left-width: 1px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+            border-left-style: solid;
+	        border-top-color: #fff;
+	        border-right-color: #fff;
+	        border-bottom-color: #fff;
+            border-left-color: #fff;
+            padding-left: 5px;
+        }
+        .tbl-auto-row-04 {
+	        height: 25px;
+            width: 99px;
+	        border-top-width: 1px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+	        border-bottom-color: #999999;
+        }
+        .tbl-auto-row-04-btm {
+	        height: 25px;
+            width: 99px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-right-color: #999999;
+	        border-bottom-color: #999999;
+        }
+        .tbl-auto-row-04-inside {
+	        height: 23px;
+            width: 92px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 12px;
+            color: #494949;
+            font-weight:400;
+            letter-spacing: -0.05em;
+	        border-top-width: 1px;
+            border-left-width: 1px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+            border-left-style: solid;
+	        border-top-color: #fff;
+	        border-right-color: #fff;
+	        border-bottom-color: #fff;
+            border-left-color: #fff;
+            padding-left: 5px;
+        }
+        .tbl-auto-row-05 {
+	        height: 25px;
+            width: 74px;
+	        border-top-width: 1px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+	        border-bottom-color: #999999;
+        }
+        .tbl-auto-row-05-btm {
+	        height: 25px;
+            width: 74px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-right-color: #999999;
+	        border-bottom-color: #999999;
+        }
+        .tbl-auto-row-05-inside {
+	        height: 23px;
+            width: 65px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 12px;
+            color: #494949;
+            font-weight:400;
+            letter-spacing: -0.05em;
+	        border-top-width: 1px;
+            border-left-width: 1px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+            border-left-style: solid;
+	        border-top-color: #fff;
+	        border-right-color: #fff;
+	        border-bottom-color: #fff;
+            border-left-color: #fff;
+            text-align: right;
+            padding-right: 5px;
+        }
+        .tbl-auto-row-06 {
+	        height: 25px;
+            width: 34px;
+	        border-top-width: 1px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+	        border-bottom-color: #999999;
+        }
+        .tbl-auto-row-06-btm {
+	        height: 25px;
+            width: 34px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-right-color: #999999;
+	        border-bottom-color: #999999;
+        }
+        .tbl-auto-row-06-inside {
+	        height: 23px;
+            width: 25px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 12px;
+            color: #494949;
+            font-weight:400;
+            letter-spacing: -0.05em;
+	        border-top-width: 1px;
+            border-left-width: 1px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+            border-left-style: solid;
+	        border-top-color: #fff;
+	        border-right-color: #fff;
+	        border-bottom-color: #fff;
+            border-left-color: #fff;
+            text-align: right;
+            padding-right: 5px;
+        }
+        .tbl-auto-row-07 {
+	        height: 25px;
+            width: 74px;
+	        border-top-width: 1px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+	        border-bottom-color: #999999;
+        }
+        .tbl-auto-row-07-btm {
+	        height: 25px;
+            width: 74px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-right-color: #999999;
+	        border-bottom-color: #999999;
+        }
+        .tbl-auto-row-07-inside {
+	        height: 23px;
+            width: 65px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 12px;
+            color: #494949;
+            font-weight:400;
+            letter-spacing: -0.05em;
+	        border-top-width: 1px;
+            border-left-width: 1px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+            border-left-style: solid;
+	        border-top-color: #fff;
+	        border-right-color: #fff;
+	        border-bottom-color: #fff;
+            border-left-color: #fff;
+            text-align: right;
+            padding-right: 5px;
+        }
+        .tbl-auto-row-08 {
+	        height: 25px;
+            width: 69px;
+            font-family: 'Droid Sans', sans-serif !important;
+            font-size: 12px;
+            color: #494949;
+            text-align:right;
+            font-weight:400;
+            letter-spacing: -0.05em;
+	        border-top-width: 1px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+	        border-bottom-color: #999999;
+            padding-right: 5px;
+            background-color: #eeeeee;
+        }
+        .tbl-auto-row-08-btm {
+	        height: 25px;
+            width: 69px;
+            font-family: 'Droid Sans', sans-serif !important;
+            font-size: 12px;
+            color: #494949;
+            text-align:right;
+            font-weight:400;
+            letter-spacing: -0.05em;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-right-color: #999999;
+	        border-bottom-color: #999999;
+            padding-right: 5px;
+            background-color: #eeeeee;
+        }
+        .tbl-auto-row-09 {
+	        height: 25px;
+            width: 69px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 12px;
+            color: #494949;
+            text-align:right;
+            font-weight:400;
+            letter-spacing: -0.05em;
+	        border-top-width: 1px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+	        border-bottom-color: #999999;
+            padding-right: 5px;
+            background-color: #eeeeee;
+        }
+        .tbl-auto-row-09-btm {
+	        height: 25px;
+            width: 69px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 12px;
+            color: #494949;
+            text-align:right;
+            font-weight:400;
+            letter-spacing: -0.05em;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-right-color: #999999;
+	        border-bottom-color: #999999;
+            padding-right: 5px;
+            background-color: #eeeeee;
+        }
+
+        .tbl02-clm01-style {
+            width: 783px;
+            height: 35px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 11px;
+            color: #000000;
+            text-align:left;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            border-top-width: 1px;
+	        border-right-width: 1px;
+            border-left-width: 1px;
+            border-bottom-width: 2px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+            border-left-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+            border-left-color: #999999;
+            border-bottom-color: #999999;
+            background:#CCCCCC;
+            padding-left: 5px;
+        }
+        .tbl02-clm01-style-supp {
+            width: 783px;
+            height: 35px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 11px;
+            color: #000000;
+            text-align:left;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            border-top-width: 1px;
+	        border-right-width: 1px;
+            border-left-width: 1px;
+            border-bottom-width: 3px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+            border-left-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+            border-left-color: #999999;
+            border-bottom-color: #999999;
+            background:#CCCCCC;
+            padding-left: 5px;
+        }
+        .tbl02-clm02-style {
+            width: 69px;
+            height: 35px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 11px;
+            color: #000000;
+            text-align:right;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            background:#CCCCCC;
+            border-top-width: 1px;
+	        border-right-width: 1px;
+            border-bottom-width: 2px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+            border-bottom-color: #999999;
+            padding-right: 5px;
+        }
+        .tbl02-clm02-style-supp {
+            width: 69px;
+            height: 35px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 11px;
+            color: #000000;
+            text-align:right;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            background:#CCCCCC;
+            border-top-width: 1px;
+	        border-right-width: 1px;
+            border-bottom-width: 3px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+            border-bottom-color: #999999;
+            padding-right: 5px;
+        }
+
+        .tbl02-clm03-style {
+            width: 69px;
+            height: 35px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 11px;
+            color: #000000;
+            text-align:right;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            background:#CCCCCC;
+            border-top-width: 1px;
+	        border-right-width: 1px;
+            border-bottom-width: 2px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+            border-bottom-color: #999999;
+            padding-right: 5px;
+        }
+        .tbl02-clm03-style-supp {
+            width: 69px;
+            height: 35px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 11px;
+            color: #000000;
+            text-align:right;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            background:#CCCCCC;
+            border-top-width: 1px;
+	        border-right-width: 1px;
+            border-bottom-width: 3px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+            border-bottom-color: #999999;
+            padding-right: 5px;
+        }
+
+        .comm-01-style {
+            font-family: 'Droid Sans', sans-serif !important;
+            font-size: 12px;
+            color: #fc5c5c;
+            text-align:right;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            width: 800px;
+            height: 50px;
+            background-color: #eeeeee;
+            padding-right: 10px;
+            border-top-width: 1px;
+            border-bottom-width: 1px;
+            border-left-width: 1px;
+            border-left-color: #fca1a1;
+            border-left-style: solid;
+	        border-top-style: solid;
+	        border-bottom-style: solid;
+	        border-top-color: #fca1a1;
+            border-bottom-color: #fca1a1;
+
+        }
+        .comm-02-style {
+            font-family: 'Droid Sans', sans-serif !important;
+            font-size: 16px;
+            color: #666666;
+            text-align:center;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            width: 170px;
+            background-color: #fcdddd;
+            border-top-style: solid;
+            border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-top-color: #fca1a1;
+            border-right-color: #fca1a1;
+            border-bottom-color: #fca1a1;
+            border-top-width: 1px;
+            border-bottom-width: 1px;
+            border-right-width: 1px;
+        }
+
+            .auto-style1 {
+                height: 23px;
+            }
+
+/* Delivery Section */
+
+        .tbl-delivery-01-outside {
+	        height: 25px;
+            width: 788px;
+	        border: 1px solid #999999;
+        }
+        .tbl-delivery-01-outside-2nd {
+	        height: 25px;
+            width: 788px;
+            border-left-width: 1px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+            border-left-style: solid;
+	        border-right-color: #999999;
+	        border-bottom-color: #999999;
+            border-left-color: #999999;
+        }
+        .tbl-delivery-01-inside {
+	        height: 23px;
+            width: 781px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 12px;
+            color: #494949;
+            font-weight:400;
+            letter-spacing: -0.05em;
+	        border-top-width: 1px;
+            border-left-width: 1px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+            border-left-style: solid;
+	        border-top-color: #fff;
+	        border-right-color: #fff;
+	        border-bottom-color: #fff;
+            border-left-color: #fff;
+            padding-left: 5px;
+        }
+        .tbl-delivery-02-outside {
+	        height: 25px;
+            width: 74px;
+	        border-top-width: 1px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+	        border-bottom-color: #999999;
+        }
+        .tbl-delivery-02-inside {
+	        height: 23px;
+            width: 65px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 12px;
+            color: #494949;
+            font-weight:400;
+            letter-spacing: -0.05em;
+	        border-top-width: 1px;
+            border-left-width: 1px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+            border-left-style: solid;
+	        border-top-color: #fff;
+	        border-right-color: #fff;
+	        border-bottom-color: #fff;
+            border-left-color: #fff;
+            text-align: right;
+            padding-right: 5px;
+        }
+        .tbl-delivery-03-outside {
+	        height: 25px;
+            width: 69px;
+            color: #cccccc;
+	        border-top-width: 1px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+	        border-bottom-color: #999999;
+            text-align: right;
+            padding-right: 5px;
+            background-color: #eeeeee;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 12px;
+        }
+        .tbl-delivery-04-outside {
+	        height: 25px;
+            width: 788px;
+            border-left-width: 1px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+            border-left-style: solid;
+	        border-right-color: #999999;
+	        border-bottom-color: #999999;
+            border-left-color: #999999;
+        }
+        .tbl-delivery-04-inside {
+	        height: 23px;
+            width: 781px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 12px;
+            color: #494949;
+            font-weight:400;
+            letter-spacing: -0.05em;
+	        border-top-width: 1px;
+            border-left-width: 1px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+            border-left-style: solid;
+	        border-top-color: #eeeeee;
+	        border-right-color: #eeeeee;
+	        border-bottom-color: #eeeeee;
+            border-left-color: #eeeeee;
+            padding-left: 5px;
+            background-color: #eeeeee;
+        }
+        .tbl-delivery-05-outside {
+	        height: 25px;
+            width: 69px;
+            color: #cccccc;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-right-color: #999999;
+	        border-bottom-color: #999999;
+            text-align: right;
+            padding-right: 5px;
+            background-color: #eeeeee;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 12px;
+        }
+        .tbl-delivery-05-outside-2nd {
+	        height: 25px;
+            width: 69px;
+            color: #cccccc;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-right-color: #999999;
+	        border-bottom-color: #999999;
+            text-align: right;
+            padding-right: 5px;
+            background-color: #eeeeee;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 12px;
+        }
+        .tbl-delivery-06-outside {
+	        height: 25px;
+            width: 74px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-right-color: #999999;
+	        border-bottom-color: #999999;
+            text-align: right;
+        }
+        .tbl-delivery-06-outside-2nd {
+	        height: 25px;
+            width: 74px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-right-color: #999999;
+	        border-bottom-color: #999999;
+            text-align: right;
+        }
+        .tbl-delivery-06-inside {
+	        height: 23px;
+            width: 65px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 12px;
+            color: #494949;
+            font-weight:400;
+            letter-spacing: -0.05em;
+	        border-top-width: 1px;
+            border-left-width: 1px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+            border-left-style: solid;
+	        border-top-color: #fff;
+	        border-right-color: #fff;
+	        border-bottom-color: #fff;
+            border-left-color: #fff;
+            text-align: right;
+            padding-right: 5px;
+        }
+
+/* TOTALS SECTION STYLES*/
+
+        .tbl-totals-01 {
+	        height: 30px;
+            width: 778px;
+            font-family: 'Droid Sans', sans-serif !important;
+            font-size: 12px;
+            color: #666666;
+            text-align:right;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            padding-right: 10px;
+            background-color: #e5e4e4;
+	        border-right-width: 2px;
+	        border-bottom-width: 2px;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-right-color: #fff;
+	        border-bottom-color: #fff;
+        }
+        .tbl-totals-02 {
+	        height: 25px;
+            width: 69px;
+            font-family: 'Droid Sans', sans-serif !important;
+            font-size: 12px;
+            color: #666666;
+            text-align:right;
+            font-weight:400;
+            letter-spacing: -0.05em;
+	        border-right-width: 2px;
+	        border-bottom-width: 2px;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-right-color: #ffffff;
+	        border-bottom-color: #ffffff;
+            padding-right: 5px;
+            background-color: #e5e4e4;
+        }
+        .tbl-totals-03 {
+	        height: 25px;
+            width: 70px;
+            font-family: 'Droid Sans', sans-serif !important;
+            font-size: 12px;
+            color: #666666;
+            text-align:right;
+            font-weight:400;
+            letter-spacing: -0.05em;
+	        border-bottom-width: 2px;
+	        border-bottom-style: solid;
+	        border-bottom-color: #ffffff;
+            padding-right: 5px;
+            background-color: #f2d3bc;
+        }
+        .tbl-totals-04 {
+	        height: 30px;
+            width: 778px;
+            font-family: 'Droid Sans', sans-serif !important;
+            font-size: 12px;
+            color: #666666;
+            text-align:right;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            padding-right: 10px;
+            background-color: #eeeeee;
+	        border-right-width: 2px;
+	        border-bottom-width: 2px;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-right-color: #fff;
+	        border-bottom-color: #fff;
+        }
+        .tbl-totals-05 {
+	        height: 25px;
+            width: 69px;
+            font-family: 'Droid Sans', sans-serif !important;
+            font-size: 12px;
+            color: #666666;
+            text-align:right;
+            font-weight:400;
+            letter-spacing: -0.05em;
+	        border-right-width: 2px;
+	        border-bottom-width: 2px;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-right-color: #ffffff;
+	        border-bottom-color: #ffffff;
+            padding-right: 5px;
+            background-color: #eeeeee;
+        }
+        .tbl-totals-06 {
+	        height: 25px;
+            width: 69px;
+            font-family: 'Droid Sans', sans-serif !important;
+            font-size: 12px;
+            color: #666666;
+            text-align:right;
+            font-weight:400;
+            letter-spacing: -0.05em;
+	        border-bottom-width: 2px;
+	        border-bottom-style: solid;
+	        border-bottom-color: #ffffff;
+            padding-right: 5px;
+            background-color: #feddc5;
+        }
+        .tbl-totals-07 {
+	        height: 30px;
+            width: 780px;
+            font-family: 'Droid Sans', sans-serif !important;
+            font-size: 12px;
+            color: #666666;
+            text-align:right;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            padding-right: 10px;
+            background-color: #eeeeee;
+            border-right-width: 2px;
+	        border-right-style: solid;
+	        border-right-color: #fff;
+        }
+        .tbl-totals-08 {
+	        height: 25px;
+            width: 68px;
+            font-family: 'Droid Sans', sans-serif !important;
+            font-size: 12px;
+            color: #666666;
+            text-align:right;
+            font-weight:400;
+            letter-spacing: -0.05em;
+	        border-right-width: 2px;
+	        border-right-style: solid;
+	        border-right-color: #ffffff;
+            padding-right: 5px;
+            background-color: #eeeeee;
+        }
+        .tbl-totals-09 {
+	        height: 25px;
+            width: 70px;
+            font-family: 'Droid Sans', sans-serif !important;
+            font-size: 12px;
+            color: #666666;
+            text-align:right;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            padding-right: 5px;
+            background-color: #feddc5;
+        }
+            
+/* TABLE PROMO ITEMS*/
+
+        .tbl04-promo00-style {
+            width: 23px;
+            height: 35px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 11px;
+            color: #000000;
+            text-align:center;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            border-top-width: 1px;
+	        border-right-width: 1px;
+            border-left-width: 1px;
+            border-bottom-width: 2px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+            border-left-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+            border-left-color: #999999;
+            border-bottom-color: #999999;
+            background:#CCCCCC;
+        }
+        .tbl04-promo01-style {
+            width: 725px;
+            height: 35px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 11px;
+            color: #000000;
+            text-align:left;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            background:#CCCCCC;
+            border-top-width: 1px;
+	        border-right-width: 1px;
+            border-bottom-width: 2px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+            border-bottom-color: #999999;
+            padding-left: 5px;
+        }
+        .tbl04-promo02-style {
+            width: 29px;
+            height: 35px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 11px;
+            color: #000000;
+            text-align:right;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            background:#CCCCCC;
+            border-top-width: 1px;
+	        border-right-width: 1px;
+            border-bottom-width: 2px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+            border-bottom-color: #999999;
+            padding-right: 5px;
+        }
+        .tbl04-promo03-style {
+            width: 69px;
+            height: 35px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 11px;
+            color: #000000;
+            text-align: right;
+            font-weight: 400;
+            letter-spacing: -0.05em;
+            background: #CCCCCC;
+            border-top-width: 1px;
+	        border-right-width: 1px;
+            border-bottom-width: 2px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+            border-bottom-color: #999999;
+            padding-right: 5px;
+        }
+        .tbl04-promo04-style {
+            width: 69px;
+            height: 35px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 11px;
+            color: #000000;
+            text-align: right;
+            font-weight: 400;
+            letter-spacing: -0.05em;
+            background: #CCCCCC;
+            border-top-width: 1px;
+	        border-right-width: 1px;
+            border-bottom-width: 2px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+            border-bottom-color: #999999;
+            padding-right: 5px;
+        }
+        .tbl04-promo-00-outside {
+	        height: 25px;
+            width: 23px;
+	        border: 1px solid #999999;
+            text-align: left;
+            /*Modifed here Add Background Color*/
+             background:#CCCCCC;
+        }
+        .tbl04-promo-00-outside-2nd {
+	        height: 25px;
+            width: 23px;
+	        border-left-width: 1px;
+	        border-right-width: 1px;
+            border-bottom-width: 1px;
+	        border-left-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-left-color: #999999;
+	        border-right-color: #999999;
+            border-bottom-color: #999999;
+            text-align: center;
+            cursor: pointer;
+            background:#CCCCCC;
+        }
+        .tbl04-promo-01-outside {
+	        height: 25px;
+            width: 730px;
+	        border-top-width: 1px;
+	        border-bottom-width: 1px;
+            border-right-width: 1px;
+	        border-top-style: solid;
+	        border-bottom-style: solid;
+            border-right-style: solid;
+	        border-top-color: #999999;
+	        border-bottom-color: #999999;
+            border-right-color: #999999;
+            text-align: left;
+        }
+        .tbl04-promo-01-outside-2nd {
+	        height: 25px;
+            width: 730px;
+	        border-bottom-width: 1px;
+            border-right-width: 1px;
+	        border-bottom-style: solid;
+            border-right-style: solid;
+	        border-bottom-color: #999999;
+            border-right-color: #999999;
+            text-align: left;
+        }
+        .tbl04-promo-01-inside {
+	        height: 23px;
+            width: 723px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 12px;
+            color: #494949;
+            font-weight:400;
+            letter-spacing: -0.05em;
+	        border-top-width: 1px;
+            border-left-width: 1px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+            border-left-style: solid;
+	        border-top-color: #fff;
+	        border-right-color: #fff;
+	        border-bottom-color: #fff;
+            border-left-color: #fff;
+            text-align: left;
+            padding-left: 5px;
+        }
+        .tbl04-promo-02-inside {
+	        height: 23px;
+            width: 25px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 12px;
+            color: #494949;
+            font-weight:400;
+            letter-spacing: -0.05em;
+	        border-top-width: 1px;
+            border-left-width: 1px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+            border-left-style: solid;
+	        border-top-color: #fff;
+	        border-right-color: #fff;
+	        border-bottom-color: #fff;
+            border-left-color: #fff;
+            text-align: right;
+            padding-right: 5px;
+        }
+        .tbl04-promo-02-outside {
+	        height: 25px;
+            width: 34px;
+	        border-top-width: 1px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+	        border-bottom-color: #999999;
+            text-align: right;
+        }
+        .tbl04-promo-02-outside-2nd {
+	        height: 25px;
+            width: 34px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-right-color: #999999;
+	        border-bottom-color: #999999;
+            text-align: right;
+        }
+        .tbl04-promo-03-outside {
+	        height: 25px;
+            width: 74px;
+	        border-top-width: 1px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+	        border-bottom-color: #999999;
+            text-align: right;
+        }
+        .tbl04-promo-03-outside-2nd {
+	        height: 25px;
+            width: 74px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-right-color: #999999;
+	        border-bottom-color: #999999;
+            text-align: right;
+        }
+        .tbl04-promo-03-inside {
+	        height: 23px;
+            width: 65px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 12px;
+            color: #494949;
+            font-weight:400;
+            letter-spacing: -0.05em;
+	        border-top-width: 1px;
+            border-left-width: 1px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+            border-left-style: solid;
+	        border-top-color: #fff;
+	        border-right-color: #fff;
+	        border-bottom-color: #fff;
+            border-left-color: #fff;
+            text-align: right;
+            padding-right: 5px;
+        }
+        .tbl04-promo-04-outside {
+	        height: 25px;
+            width: 74px;
+	        border-top-width: 1px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-top-color: #999999;
+	        border-right-color: #999999;
+	        border-bottom-color: #999999;
+            text-align: right;
+        }
+        .tbl04-promo-04-outside-2nd {
+	        height: 25px;
+            width: 74px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-right-color: #999999;
+	        border-bottom-color: #999999;
+            text-align: right;
+        }
+        .tbl04-promo-04-inside {
+	        height: 23px;
+            width: 65px;
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 12px;
+            color: #494949;
+            font-weight:400;
+            letter-spacing: -0.05em;
+	        border-top-width: 1px;
+            border-left-width: 1px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-top-style: solid;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+            border-left-style: solid;
+	        border-top-color: #fff;
+	        border-right-color: #fff;
+	        border-bottom-color: #fff;
+            border-left-color: #fff;
+            text-align: right;
+            padding-right: 5px;
+        }
+
+/* DETAILS SECTION */
+
+        .tbl-details-01 {
+	        height: 30px;
+            width: 150px;
+            font-family: 'Droid Sans', sans-serif !important;
+            font-size: 12px;
+            color: #666666;
+            text-align:right;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            padding-right: 10px;
+            background-color: #eeeeee;
+	        border-right-width: 2px;
+	        border-bottom-width: 2px;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-right-color: #fff;
+	        border-bottom-color: #fff;
+        }
+        .tbl-details-02 {
+	        height: 30px;
+            width: 150px;
+            font-family: 'Droid Sans', sans-serif !important;
+            font-size: 12px;
+            color: #666666;
+            text-align:right;
+            font-weight:400;
+            letter-spacing: -0.05em;
+            padding-right: 10px;
+            background-color: #eeeeee;
+	        border-right-width: 2px;
+	        border-bottom-width: 2px;
+	        border-right-style: solid;
+	        border-bottom-style: solid;
+	        border-right-color: #fff;
+	        border-bottom-color: #fff;
+        }
+
+            .auto-style3 {
+                height: 75px;
+                width: 520px;
+            }
+
+            .auto-style4 {
+                width: 290px;
+            }
+
+            .auto-style5 {
+                width: 150px;
+            }
+
+            .auto-style6 {
+                border-right: 2px solid #fff;
+                height: 29px;
+                width: 780px;
+                font-family: 'Droid Sans', sans-serif;
+                font-size: 12px;
+                color: #666666;
+                text-align: right;
+                font-weight: 400;
+                letter-spacing: -0.05em;
+                padding-right: 10px;
+                background-color: #eeeeee;
+            }
+            .auto-style7 {
+                border-right: 2px solid #ffffff;
+                height: 29px;
+                width: 68px;
+                font-family: 'Droid Sans', sans-serif;
+                font-size: 12px;
+                color: #666666;
+                text-align: right;
+                font-weight: 400;
+                letter-spacing: -0.05em;
+                padding-right: 5px;
+                background-color: #eeeeee;
+            }
+            .auto-style8 {
+                height: 29px;
+                width: 70px;
+                font-family: 'Droid Sans', sans-serif;
+                font-size: 12px;
+                color: #666666;
+                text-align: right;
+                font-weight: 400;
+                letter-spacing: -0.05em;
+                padding-right: 5px;
+                background-color: #feddc5;
+            }
+            .ui-autocomplete-category {
+                font-weight: bold !important;
+                padding: .2em .4em;
+                margin: .8em 0 .2em;
+                line-height: 1.5;
+            }
+            .blackout {
+                background-color:#000;
+                opacity:.7;
+                filter:alpha(opacity=70);
+                height:200%;
+                width:100%;
+                position:fixed;
+                top:0;
+                left:0;
+                z-index:100;
+                display:none;
+                cursor:pointer;
+            }
+            .auto-style9 {
+                height: 90px;
+            }

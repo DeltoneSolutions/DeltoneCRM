@@ -1,0 +1,13 @@
+C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.exe.config
+C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.exe
+C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneEmailWindowsService.pdb
+C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneCRM-DAL.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\log4net.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\DeltoneCRM-DAL.pdb
+C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\obj\Debug\DeltoneEmailWindowsService.csprojResolveAssemblyReference.cache
+C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\obj\Debug\DeltoneEmailWindowsService.ProjectInstaller.resources
+C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\obj\Debug\DeltoneEmailWindowsService.csproj.GenerateResource.Cache
+C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\obj\Debug\DeltoneEmailWindowsService.exe
+C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\obj\Debug\DeltoneEmailWindowsService.pdb
+C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\Newtonsoft.Json.dll
+C:\WebProjects\DeltoneCRM-GIT\DeltoneEmailWindowsService\bin\Debug\Newtonsoft.Json.xml

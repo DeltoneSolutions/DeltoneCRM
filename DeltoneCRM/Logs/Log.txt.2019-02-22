@@ -1,0 +1,56 @@
+2019-02-22 10:45:33,830 [42] ERROR DeltoneCRM.Global - Application error :System.Web.HttpException (0x80004005): The file '/Manage/Manage/Process/updatecompanyxeroreference.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-02-22 10:48:49,979 [33] ERROR DeltoneCRM.Global - Application error :System.Web.HttpException (0x80004005): The file '/Manage/Manage/Process/updatecompanyxeroreference.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-02-22 10:53:12,709 [11] ERROR DeltoneCRM.Global - Application error :System.Web.HttpException (0x80004005): The file '/Manage/Manage/Process/updatecompanyxeroreference.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-02-22 13:05:14,724 [57] ERROR DeltoneCRM.Global - Application error :System.Web.HttpException (0x80004005): The file '/ManageCentral.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-02-22 14:00:39,010 [11] INFO  DeltoneCRM.WebForm1 - RMAEmailSupplierManage : Send email to Supplier:Hi  , <br/>  RMA Request  for this Order Number :DTS-24637  <br/> Credit Note Number is :CN-24804  <br/> Company Name is :sampleTest
+2019-02-22 14:01:33,722 [11] ERROR DeltoneCRM.WebForm1 -  Error Occurred SendMail method RMAEmailSupplierManage :Value cannot be null.
+Parameter name: input
+2019-02-22 14:02:27,729 [43] INFO  DeltoneCRM.WebForm1 - RMAEmailSupplierManage : Send email to Supplier:Hi  , <br/>  RMA Request  for this Order Number :DTS-24637  <br/> Credit Note Number is :CN-24804  <br/> Company Name is :sampleTest
+2019-02-22 14:03:02,004 [43] INFO  DeltoneCRM_DAL.CreditNoteRMAHandler -  Email SendCreditNoteEmailAlternative: <!DOCTYPE HTML PUBLIC ' -//W3C//DTD HTML 3.2//EN'><html><body style='font-family:Calibri;'><table align='center' cellpadding='0' cellspacing='0' width='100%'><tr><td><table  cellpadding='0' cellspacing='0' width='780px' height='85px'>Hi  , <br/>  RMA Request  for this Order Number :DTS-24637  <br/> Credit Note Number is :CN-24804  <br/> Company Name is :sampleTest <br/> Items Listed Below.</td></tr><tr><td>&nbsp;</td></tr><tr><td><table style='width:720px;'><tr><tr><td style='width:320px;text-align:left;font-family:Calibri;'>1*BROTHER LC133 Cyan  Inkjet Cartridge( PB-133C ) </td></tr><tr><td style='font-family:Calibri;'>KIND REGARDS</td></tr><tr><td>&nbsp;
+     </td></tr><tr><td style='font-family:Calibri;'></td></tr><tr><td style='font-family:Calibri;'><img src="cid:bottombanner" height='105' width='550'></td></tr></table></td></tr><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr></table></body></html><br/>We included the order number:dts22222
+2019-02-22 14:07:40,246 [40] INFO  DeltoneCRM.WebForm1 - RMAEmailSupplierManage : Send email to Supplier:Hi  , <br/>  RMA Request  for this Order Number :DTS-24637  <br/> Credit Note Number is :CN-24804  <br/> Company Name is :sampleTest<br/><br/>We included the order number:dts22222<br/>
+2019-02-22 14:08:06,608 [40] INFO  DeltoneCRM_DAL.CreditNoteRMAHandler -  Email SendCreditNoteEmailAlternative: <!DOCTYPE HTML PUBLIC ' -//W3C//DTD HTML 3.2//EN'><html><body style='font-family:Calibri;'><table align='center' cellpadding='0' cellspacing='0' width='100%'><tr><td><table  cellpadding='0' cellspacing='0' width='780px' height='85px'>Hi  , <br/>  RMA Request  for this Order Number :DTS-24637  <br/> Credit Note Number is :CN-24804  <br/> Company Name is :sampleTest<br/><br/>We included the order number:dts22222<br/> <br/> Items Listed Below.</td></tr><tr><td>&nbsp;</td></tr><tr><td><table style='width:720px;'><tr><tr><td style='width:320px;text-align:left;font-family:Calibri;'>1*BROTHER LC133 Cyan  Inkjet Cartridge( PB-133C ) </td></tr><tr><td style='font-family:Calibri;'>KIND REGARDS</td></tr><tr><td>&nbsp;
+     </td></tr><tr><td style='font-family:Calibri;'></td></tr><tr><td style='font-family:Calibri;'><img src="cid:bottombanner" height='105' width='550'></td></tr></table></td></tr><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr></table></body></html>
+2019-02-22 14:10:13,249 [12] INFO  DeltoneCRM.WebForm1 - RMAEmailSupplierManage : Send email to Supplier:Hi  , <br/>  RMA Request  for this Order Number :DTS-24637  <br/> Credit Note Number is :CN-24804  <br/> Company Name is :sampleTest<br/><br/>We included the order number:dts22222<br/>
+2019-02-22 14:10:34,748 [12] INFO  DeltoneCRM_DAL.CreditNoteRMAHandler -  Email SendCreditNoteEmailAlternative: <!DOCTYPE HTML PUBLIC ' -//W3C//DTD HTML 3.2//EN'><html><body style='font-family:Calibri;'><table align='center' cellpadding='0' cellspacing='0' width='100%'><tr><td><table  cellpadding='0' cellspacing='0' width='780px' height='85px'>Hi  , <br/>  RMA Request  for this Order Number :DTS-24637  <br/> Credit Note Number is :CN-24804  <br/> Company Name is :sampleTest<br/><br/>We included the order number:dts22222<br/> <br/> Items Listed Below.</td></tr><tr><td>&nbsp;</td></tr><tr><td><table style='width:720px;'><tr><tr><td style='width:320px;text-align:left;font-family:Calibri;'>1*BROTHER LC133 Cyan  Inkjet Cartridge( PB-133C ) </td></tr><tr><td style='font-family:Calibri;'>KIND REGARDS</td></tr><tr><td>&nbsp;
+     </td></tr><tr><td style='font-family:Calibri;'></td></tr><tr><td style='font-family:Calibri;'><img src="cid:bottombanner" height='105' width='550'></td></tr></table></td></tr><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr></table></body></html>

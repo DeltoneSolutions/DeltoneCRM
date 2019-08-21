@@ -1,0 +1,11 @@
+C:\WebProjects\DeltoneCRM-GIT\TaskSchedulerAccountMove\bin\Debug\TaskSchedulerAccountMove.exe.config
+C:\WebProjects\DeltoneCRM-GIT\TaskSchedulerAccountMove\bin\Debug\TaskSchedulerAccountMove.exe
+C:\WebProjects\DeltoneCRM-GIT\TaskSchedulerAccountMove\bin\Debug\TaskSchedulerAccountMove.pdb
+C:\WebProjects\DeltoneCRM-GIT\TaskSchedulerAccountMove\bin\Debug\DeltoneCRM-DAL.dll
+C:\WebProjects\DeltoneCRM-GIT\TaskSchedulerAccountMove\bin\Debug\log4net.dll
+C:\WebProjects\DeltoneCRM-GIT\TaskSchedulerAccountMove\bin\Debug\Newtonsoft.Json.dll
+C:\WebProjects\DeltoneCRM-GIT\TaskSchedulerAccountMove\bin\Debug\DeltoneCRM-DAL.pdb
+C:\WebProjects\DeltoneCRM-GIT\TaskSchedulerAccountMove\bin\Debug\Newtonsoft.Json.xml
+C:\WebProjects\DeltoneCRM-GIT\TaskSchedulerAccountMove\obj\Debug\TaskSchedulerAccountMove.csprojResolveAssemblyReference.cache
+C:\WebProjects\DeltoneCRM-GIT\TaskSchedulerAccountMove\obj\Debug\TaskSchedulerAccountMove.exe
+C:\WebProjects\DeltoneCRM-GIT\TaskSchedulerAccountMove\obj\Debug\TaskSchedulerAccountMove.pdb
